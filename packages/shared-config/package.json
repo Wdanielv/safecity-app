@@ -1,0 +1,15 @@
+{
+  "name": "@safecity/shared-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Configuración compartida: Prettier y TSConfig base. ESLint se mantiene independiente por app (ver decisión en docs/decisions) para no degradar la configuración oficial de NestJS 11 / Next.js 16, ambas en flat-config moderno y mutuamente incompatibles con un preset legacy único.",
+  "main": "index.js",
+  "files": [
+    "prettier.config.js",
+    "tsconfig.base.json"
+  ],
+  "exports": {
+    "./prettier": "./prettier.config.js",
+    "./tsconfig.base": "./tsconfig.base.json"
+  }
+}

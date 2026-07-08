@@ -1,0 +1,346 @@
+// ============================================================================
+// SAFECITY — schema.prisma
+// MVP universitario. Alcance: Auth, Users, Reports, Maps, Confirmations,
+// Favorites, Notifications, Admin.
+// Sin PostGIS (lat/lon como Decimal). Sin Reputación (mejora futura).
+// ============================================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================================
+// GEOGRAFÍA — completamente configurable en BD (RF-21 / RNF-03).
+// Agregar una nueva ciudad es un INSERT, no un cambio de código.
+// ============================================================================
+
+model City {
+  id          String   @id @default(uuid())
+  name        String
+  countryCode String   @db.VarChar(2)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  localities Locality[]
+
+  @@unique([name, countryCode])
+  @@map("cities")
+}
+
+model Locality {
+  id        String   @id @default(uuid())
+  cityId    String
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  city          City           @relation(fields: [cityId], references: [id], onDelete: Restrict)
+  neighborhoods Neighborhood[]
+  reports       Report[]
+  favoriteZones FavoriteZone[]
+
+  @@unique([cityId, name])
+  @@index([cityId])
+  @@map("localities")
+}
+
+model Neighborhood {
+  id         String   @id @default(uuid())
+  localityId String
+  name       String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  locality      Locality       @relation(fields: [localityId], references: [id], onDelete: Restrict)
+  reports       Report[]
+  favoriteZones FavoriteZone[]
+
+  @@unique([localityId, name])
+  @@index([localityId])
+  @@map("neighborhoods")
+}
+
+// ============================================================================
+// USUARIOS Y AUTENTICACIÓN
+// ============================================================================
+
+enum UserRole {
+  CIUDADANO
+  MODERADOR
+  ADMINISTRADOR
+}
+
+enum UserStatus {
+  PENDIENTE_VERIFICACION
+  ACTIVO
+  SUSPENDIDO
+  ELIMINADO
+}
+
+model User {
+  id             String     @id @default(uuid())
+  email          String     @unique
+  passwordHash   String
+  name           String
+  photoUrl       String?
+  role           UserRole   @default(CIUDADANO)
+  status         UserStatus @default(PENDIENTE_VERIFICACION)
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+  deletedAt      DateTime?
+
+  refreshTokens          RefreshToken[]
+  emailVerificationToken EmailVerificationToken?
+  passwordResetTokens    PasswordResetToken[]
+  reports                Report[]
+  reportConfirmations    ReportConfirmation[]
+  favoriteZones          FavoriteZone[]
+  notificationSettings   NotificationSettings?
+  notificationsReceived  NotificationLog[]
+  adminActionsPerformed  AdminActionLog[]       @relation("AdminActor")
+  reportStatusChanges    ReportStatusHistory[]
+  reportAppeals          ReportAppeal[]
+
+  @@index([role])
+  @@index([status])
+  @@map("users")
+}
+
+model RefreshToken {
+  id        String    @id @default(uuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+model EmailVerificationToken {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  tokenHash String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("email_verification_tokens")
+}
+
+model PasswordResetToken {
+  id        String    @id @default(uuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+// ============================================================================
+// REPORTES
+// ============================================================================
+
+enum ReportStatus {
+  PENDIENTE
+  CONFIRMADO
+  DESCARTADO
+  ARCHIVADO
+}
+
+model IncidentType {
+  id                   String   @id @default(uuid())
+  code                 String   @unique
+  label                String
+  defaultValidityHours Int
+  active               Boolean  @default(true)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  reports Report[]
+
+  @@map("incident_types")
+}
+
+model Report {
+  id             String       @id @default(uuid())
+  userId         String?
+  incidentTypeId String
+  localityId     String
+  neighborhoodId String?
+  latitude       Decimal      @db.Decimal(10, 8)
+  longitude      Decimal      @db.Decimal(11, 8)
+  description    String?      @db.VarChar(500)
+  status         ReportStatus @default(PENDIENTE)
+  visibleOnMap   Boolean      @default(true)
+  expiresAt      DateTime
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  user              User?               @relation(fields: [userId], references: [id], onDelete: SetNull)
+  incidentType      IncidentType        @relation(fields: [incidentTypeId], references: [id], onDelete: Restrict)
+  locality          Locality            @relation(fields: [localityId], references: [id], onDelete: Restrict)
+  neighborhood      Neighborhood?       @relation(fields: [neighborhoodId], references: [id], onDelete: SetNull)
+  media             ReportMedia[]
+  confirmations     ReportConfirmation[]
+  statusHistory     ReportStatusHistory[]
+  appeals           ReportAppeal[]
+  notificationLogs  NotificationLog[]
+
+  @@index([userId])
+  @@index([incidentTypeId])
+  @@index([localityId])
+  @@index([status])
+  @@index([expiresAt])
+  @@index([latitude, longitude])
+  @@map("reports")
+}
+
+model ReportMedia {
+  id        String   @id @default(uuid())
+  reportId  String
+  fileUrl   String
+  createdAt DateTime @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+  @@map("report_media")
+}
+
+model ReportConfirmation {
+  id        String   @id @default(uuid())
+  reportId  String
+  userId    String
+  createdAt DateTime @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([reportId, userId])
+  @@index([reportId])
+  @@map("report_confirmations")
+}
+
+model ReportStatusHistory {
+  id          String        @id @default(uuid())
+  reportId    String
+  fromStatus  ReportStatus?
+  toStatus    ReportStatus
+  changedById String?
+  reason      String?       @db.VarChar(500)
+  createdAt   DateTime      @default(now())
+
+  report    Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  changedBy User?  @relation(fields: [changedById], references: [id], onDelete: SetNull)
+
+  @@index([reportId])
+  @@map("report_status_history")
+}
+
+model ReportAppeal {
+  id            String   @id @default(uuid())
+  reportId      String   @unique
+  userId        String
+  justification String   @db.VarChar(1000)
+  resolved      Boolean  @default(false)
+  resolvedAt    DateTime?
+  createdAt     DateTime @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("report_appeals")
+}
+
+// ============================================================================
+// FAVORITOS
+// ============================================================================
+
+model FavoriteZone {
+  id             String   @id @default(uuid())
+  userId         String
+  localityId     String
+  neighborhoodId String?
+  createdAt      DateTime @default(now())
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  locality     Locality      @relation(fields: [localityId], references: [id], onDelete: Restrict)
+  neighborhood Neighborhood? @relation(fields: [neighborhoodId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, localityId, neighborhoodId])
+  @@index([userId])
+  @@map("favorite_zones")
+}
+
+// ============================================================================
+// NOTIFICACIONES
+// ============================================================================
+
+model NotificationSettings {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  radiusMeters Int      @default(500)
+  pushEnabled  Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_settings")
+}
+
+model NotificationLog {
+  id       String   @id @default(uuid())
+  reportId String
+  userId   String
+  sentAt   DateTime @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+  @@index([userId])
+  @@map("notifications_log")
+}
+
+// ============================================================================
+// ADMINISTRACIÓN
+// ============================================================================
+
+enum AdminActionType {
+  SUSPENDER_USUARIO
+  REACTIVAR_USUARIO
+  DESCARTAR_REPORTE
+  REACTIVAR_REPORTE
+}
+
+model AdminActionLog {
+  id           String          @id @default(uuid())
+  actorId      String
+  targetUserId String?
+  targetReportId String?
+  actionType   AdminActionType
+  reason       String?         @db.VarChar(500)
+  createdAt    DateTime        @default(now())
+
+  actor User @relation("AdminActor", fields: [actorId], references: [id], onDelete: Cascade)
+
+  @@index([actorId])
+  @@map("admin_actions_log")
+}

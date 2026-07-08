@@ -1,0 +1,76 @@
+name: safecity
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: safecity-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: safecity
+      POSTGRES_PASSWORD: safecity_dev_password
+      POSTGRES_DB: safecity
+    ports:
+      - "5432:5432"
+    volumes:
+      - safecity_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U safecity -d safecity"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: safecity-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - safecity_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: safecity-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      FRONTEND_URL: http://localhost:3000
+      DATABASE_URL: postgresql://safecity:safecity_dev_password@postgres:5432/safecity?schema=public
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:-dev_jwt_secret_change_in_production}
+      JWT_ACCESS_EXPIRATION: 15m
+      JWT_REFRESH_EXPIRATION: 7d
+    ports:
+      - "3001:3001"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:3001/api/v1
+    container_name: safecity-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:3001/api/v1
+    ports:
+      - "3000:3000"
+
+volumes:
+  safecity_postgres_data:
+  safecity_redis_data:

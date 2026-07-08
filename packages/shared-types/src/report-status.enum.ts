@@ -1,0 +1,6 @@
+export enum ReportStatus {
+  PENDIENTE   = 'PENDIENTE',
+  CONFIRMADO  = 'CONFIRMADO',
+  DESCARTADO  = 'DESCARTADO',
+  ARCHIVADO   = 'ARCHIVADO',
+}
