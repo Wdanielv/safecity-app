@@ -87,6 +87,7 @@ model User {
   email          String     @unique
   passwordHash   String
   name           String
+  phone          String?
   photoUrl       String?
   role           UserRole   @default(CIUDADANO)
   status         UserStatus @default(PENDIENTE_VERIFICACION)
