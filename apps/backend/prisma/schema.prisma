@@ -167,6 +167,8 @@ model IncidentType {
   id                   String   @id @default(uuid())
   code                 String   @unique
   label                String
+  icon                 String?
+  color                String?
   defaultValidityHours Int
   active               Boolean  @default(true)
   createdAt            DateTime @default(now())

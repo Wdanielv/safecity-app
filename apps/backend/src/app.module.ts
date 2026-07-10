@@ -4,6 +4,11 @@ import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { ReportsModule } from './reports/reports.module';
+import { IncidentTypesModule } from './incident-types/incident-types.module';
+import { ConfirmationsModule } from './confirmations/confirmations.module';
+import { LocalitiesModule } from './localities/localities.module';
+import { NeighborhoodsModule } from './neighborhoods/neighborhoods.module';
+import { SchedulerModule } from './scheduler/scheduler.module';
 
 @Module({
   imports: [
@@ -11,10 +16,17 @@ import { ReportsModule } from './reports/reports.module';
       isGlobal: true,
       envFilePath: '.env',
     }),
+
+    SchedulerModule,
     PrismaModule,
     AuthModule,
     UsersModule,
-    ReportsModule, // <-- Agregar esta línea
+    ReportsModule, 
+    IncidentTypesModule,
+    ConfirmationsModule,
+    LocalitiesModule,
+    NeighborhoodsModule,
+    
   ],
 })
 export class AppModule {}
