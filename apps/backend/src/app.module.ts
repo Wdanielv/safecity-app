@@ -9,6 +9,8 @@ import { ConfirmationsModule } from './confirmations/confirmations.module';
 import { LocalitiesModule } from './localities/localities.module';
 import { NeighborhoodsModule } from './neighborhoods/neighborhoods.module';
 import { SchedulerModule } from './scheduler/scheduler.module';
+import { ReputationModule } from './reputation/reputation.module';
+
 
 @Module({
   imports: [
@@ -26,6 +28,7 @@ import { SchedulerModule } from './scheduler/scheduler.module';
     ConfirmationsModule,
     LocalitiesModule,
     NeighborhoodsModule,
+    ReputationModule,
     
   ],
 })

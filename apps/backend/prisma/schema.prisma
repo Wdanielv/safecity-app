@@ -106,6 +106,7 @@ model User {
   adminActionsPerformed  AdminActionLog[]       @relation("AdminActor")
   reportStatusChanges    ReportStatusHistory[]
   reportAppeals          ReportAppeal[]
+  reputation             Int                    @default(0)
 
   @@index([role])
   @@index([status])
