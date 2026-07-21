@@ -81,4 +81,10 @@ export class ReportResponseDto {
 
   @ApiPropertyOptional({ type: ReportOwnerSummaryDto, nullable: true })
   user: ReportOwnerSummaryDto | null;
+
+  @ApiProperty({ example: 3 })
+  confirmationCount: number;
+
+  @ApiProperty({ example: false })
+  confirmedByMe: boolean;
 }

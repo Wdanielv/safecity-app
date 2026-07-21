@@ -31,7 +31,6 @@ export class NeighborhoodsController {
     status: 200,
     description: 'Listado de barrios obtenido correctamente',
   })
-  
   findAll(@Query() query: SearchNeighborhoodDto) {
     return this.neighborhoodsService.findAll(query);
   }

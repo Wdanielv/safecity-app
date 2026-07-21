@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "002507",
+    "nombre": "Abraham Lincoln",
+    "localidad": "06"
+  },
+  {
+    "id": "008510",
+    "nombre": "Acacias Usaquen",
+    "localidad": "01"
+  },
+  {
+    "id": "005107",
+    "nombre": "Acevedo Tejada",
+    "localidad": "13"
+  },
+  {
+    "id": "005624",
+    "nombre": "Aeropuerto El Dorado",
+    "localidad": "09"
+  },
+  {
+    "id": "001119",
+    "nombre": "Aguas Claras I",
+    "localidad": "04"
+  },
+  {
+    "id": "005643",
+    "nombre": "Alamos",
+    "localidad": "10"
+  },
+  {
+    "id": "002551",
+    "nombre": "Alaska",
+    "localidad": "05"
+  },
+  {
+    "id": "004407",
+    "nombre": "Alcala",
+    "localidad": "16"
+  },
+  {
+    "id": "007302",
+    "nombre": "Alcazares",
+    "localidad": "12"
+  },
+  {
+    "id": "007404",
+    "nombre": "Alcazares Norte",
+    "localidad": "12"
+  },
+  {
+    "id": "007209",
+    "nombre": "Alfonso Lopez",
+    "localidad": "13"
+  },
+  {
+    "id": "009218",
+    "nombre": "Almirante Colon",
+    "localidad": "11"
+  },
+  {
+    "id": "004409",
+    "nombre": "Alqueria",
+    "localidad": "16"
+  },
+  {
+    "id": "004543",
+    "nombre": "Alqueria La Fragua",
+    "localidad": "08"
+  },
+  {
+    "id": "004596",
+    "nombre": "Alqueria La Fragua Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "004542",
+    "nombre": "Alqueria La Fragua Norte",
+    "localidad": "08"
+  },
+  {
+    "id": "001315",
+    "nombre": "Altamira",
+    "localidad": "04"
+  },
+  {
+    "id": "009222",
+    "nombre": "Altos De Chozica",
+    "localidad": "11"
+  },
+  {
+    "id": "009260",
+    "nombre": "Altos De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "001333",
+    "nombre": "Altos Del Poblado",
+    "localidad": "04"
+  },
+  {
+    "id": "001342",
+    "nombre": "Altos Del Zipa",
+    "localidad": "04"
+  },
+  {
+    "id": "001331",
+    "nombre": "Altos Del Zuque",
+    "localidad": "04"
+  },
+  {
+    "id": "004553",
+    "nombre": "Andalucia Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "009127",
+    "nombre": "Andes Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "008314",
+    "nombre": "Antiguo Country",
+    "localidad": "02"
+  },
+  {
+    "id": "004570",
+    "nombre": "Antonia Santos",
+    "localidad": "07"
+  },
+  {
+    "id": "002571",
+    "nombre": "Antonio Jose De Sucre",
+    "localidad": "05"
+  },
+  {
+    "id": "002578",
+    "nombre": "Arabia",
+    "localidad": "19"
+  },
+  {
+    "id": "001362",
+    "nombre": "Arboleda Santa Teresita",
+    "localidad": "04"
+  },
+  {
+    "id": "001423",
+    "nombre": "Arboleda Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "002568",
+    "nombre": "Arborizadora Alta",
+    "localidad": "19"
+  },
+  {
+    "id": "002569",
+    "nombre": "Arborizadora Alta",
+    "localidad": "19"
+  },
+  {
+    "id": "002573",
+    "nombre": "Arborizadora Alta",
+    "localidad": "19"
+  },
+  {
+    "id": "002460",
+    "nombre": "Arborizadora Alta I",
+    "localidad": "19"
+  },
+  {
+    "id": "002461",
+    "nombre": "Arborizadora Alta Ii",
+    "localidad": "19"
+  },
+  {
+    "id": "002432",
+    "nombre": "Arborizadora Baja",
+    "localidad": "19"
+  },
+  {
+    "id": "002512",
+    "nombre": "Area Artilleria",
+    "localidad": "06"
+  },
+  {
+    "id": "004583",
+    "nombre": "Argelia Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "007105",
+    "nombre": "Armenia",
+    "localidad": "13"
+  },
+  {
+    "id": "002601",
+    "nombre": "Arrayanes I",
+    "localidad": "05"
+  },
+  {
+    "id": "002625",
+    "nombre": "Arrayanes V",
+    "localidad": "05"
+  },
+  {
+    "id": "002637",
+    "nombre": "Arrayanes Vi",
+    "localidad": "18"
+  },
+  {
+    "id": "006416",
+    "nombre": "Atahualpa",
+    "localidad": "09"
+  },
+  {
+    "id": "001305",
+    "nombre": "Atenas",
+    "localidad": "04"
+  },
+  {
+    "id": "009119",
+    "nombre": "Atenas",
+    "localidad": "11"
+  },
+  {
+    "id": "002422",
+    "nombre": "Atlanta",
+    "localidad": "19"
+  },
+  {
+    "id": "009205",
+    "nombre": "Aures",
+    "localidad": "11"
+  },
+  {
+    "id": "009206",
+    "nombre": "Aures Ii",
+    "localidad": "11"
+  },
+  {
+    "id": "005611",
+    "nombre": "Autopista Medellin",
+    "localidad": "10"
+  },
+  {
+    "id": "004403",
+    "nombre": "Autopista Muzu",
+    "localidad": "16"
+  },
+  {
+    "id": "004413",
+    "nombre": "Autopista Muzu Oriental",
+    "localidad": "16"
+  },
+  {
+    "id": "004404",
+    "nombre": "Autopista Sur",
+    "localidad": "16"
+  },
+  {
+    "id": "007208",
+    "nombre": "Banco Central",
+    "localidad": "13"
+  },
+  {
+    "id": "007306",
+    "nombre": "Baquero",
+    "localidad": "12"
+  },
+  {
+    "id": "004303",
+    "nombre": "Barcelona",
+    "localidad": "16"
+  },
+  {
+    "id": "001424",
+    "nombre": "Barcelona Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "002417",
+    "nombre": "Barlovento",
+    "localidad": "19"
+  },
+  {
+    "id": "008507",
+    "nombre": "Barrancas",
+    "localidad": "01"
+  },
+  {
+    "id": "008506",
+    "nombre": "Barrancas Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "008551",
+    "nombre": "Barrancas Oriental I",
+    "localidad": "01"
+  },
+  {
+    "id": "002525",
+    "nombre": "Barranquillita",
+    "localidad": "05"
+  },
+  {
+    "id": "006207",
+    "nombre": "Batallon Caldas",
+    "localidad": "16"
+  },
+  {
+    "id": "009118",
+    "nombre": "Batan",
+    "localidad": "11"
+  },
+  {
+    "id": "006504",
+    "nombre": "Bavaria",
+    "localidad": "08"
+  },
+  {
+    "id": "007206",
+    "nombre": "Belalcazar",
+    "localidad": "13"
+  },
+  {
+    "id": "003204",
+    "nombre": "Belen",
+    "localidad": "17"
+  },
+  {
+    "id": "006409",
+    "nombre": "Belen Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "002580",
+    "nombre": "Bella Flor",
+    "localidad": "19"
+  },
+  {
+    "id": "002582",
+    "nombre": "Bella Flor Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "008404",
+    "nombre": "Bella Suiza",
+    "localidad": "01"
+  },
+  {
+    "id": "002436",
+    "nombre": "Bellavista",
+    "localidad": "19"
+  },
+  {
+    "id": "008305",
+    "nombre": "Bellavista",
+    "localidad": "02"
+  },
+  {
+    "id": "002560",
+    "nombre": "Bellavista Lucero Alto",
+    "localidad": "19"
+  },
+  {
+    "id": "005503",
+    "nombre": "Bellavista Occidental",
+    "localidad": "10"
+  },
+  {
+    "id": "001313",
+    "nombre": "Bellavista Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "001304",
+    "nombre": "Bello Horizonte",
+    "localidad": "04"
+  },
+  {
+    "id": "007309",
+    "nombre": "Benjamin Herrera",
+    "localidad": "12"
+  },
+  {
+    "id": "009259",
+    "nombre": "Berlin",
+    "localidad": "11"
+  },
+  {
+    "id": "004628",
+    "nombre": "Betania",
+    "localidad": "07"
+  },
+  {
+    "id": "009252",
+    "nombre": "Bilbao",
+    "localidad": "11"
+  },
+  {
+    "id": "004211",
+    "nombre": "Bochica",
+    "localidad": "16"
+  },
+  {
+    "id": "005632",
+    "nombre": "Bochica",
+    "localidad": "10"
+  },
+  {
+    "id": "005644",
+    "nombre": "Bochica Ii",
+    "localidad": "10"
+  },
+  {
+    "id": "004516",
+    "nombre": "Boita",
+    "localidad": "08"
+  },
+  {
+    "id": "005622",
+    "nombre": "Bolivia",
+    "localidad": "10"
+  },
+  {
+    "id": "005675",
+    "nombre": "Bolivia",
+    "localidad": "10"
+  },
+  {
+    "id": "005640",
+    "nombre": "Bolivia Oriental",
+    "localidad": "10"
+  },
+  {
+    "id": "002605",
+    "nombre": "Bolonia",
+    "localidad": "05"
+  },
+  {
+    "id": "002626",
+    "nombre": "Bolonia I",
+    "localidad": "05"
+  },
+  {
+    "id": "005406",
+    "nombre": "Bonanza",
+    "localidad": "10"
+  },
+  {
+    "id": "004522",
+    "nombre": "Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "004526",
+    "nombre": "Bosa Nova",
+    "localidad": "07"
+  },
+  {
+    "id": "004580",
+    "nombre": "Bosa Nova El Porvenir",
+    "localidad": "07"
+  },
+  {
+    "id": "008207",
+    "nombre": "Bosque Calderon",
+    "localidad": "02"
+  },
+  {
+    "id": "001339",
+    "nombre": "Bosque De Los Alpes",
+    "localidad": "04"
+  },
+  {
+    "id": "006316",
+    "nombre": "Bosque De Modelia",
+    "localidad": "09"
+  },
+  {
+    "id": "008520",
+    "nombre": "Bosque De Pinos",
+    "localidad": "01"
+  },
+  {
+    "id": "008536",
+    "nombre": "Bosque De Pinos I",
+    "localidad": "01"
+  },
+  {
+    "id": "008538",
+    "nombre": "Bosque De Pinos Iii",
+    "localidad": "01"
+  },
+  {
+    "id": "008106",
+    "nombre": "Bosque Izquierdo",
+    "localidad": "03"
+  },
+  {
+    "id": "005505",
+    "nombre": "Bosque Popular",
+    "localidad": "10"
+  },
+  {
+    "id": "009241",
+    "nombre": "Bosques De San Jorge",
+    "localidad": "11"
+  },
+  {
+    "id": "005603",
+    "nombre": "Boyaca",
+    "localidad": "10"
+  },
+  {
+    "id": "004622",
+    "nombre": "Brasil",
+    "localidad": "07"
+  },
+  {
+    "id": "004604",
+    "nombre": "Brasilia",
+    "localidad": "07"
+  },
+  {
+    "id": "002306",
+    "nombre": "Bravo Paez",
+    "localidad": "18"
+  },
+  {
+    "id": "002591",
+    "nombre": "Brazuelos Occidental",
+    "localidad": "19"
+  },
+  {
+    "id": "006414",
+    "nombre": "Brisas Aldea Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "002635",
+    "nombre": "Brisas Del Llano",
+    "localidad": "05"
+  },
+  {
+    "id": "002587",
+    "nombre": "Brisas Del Volador",
+    "localidad": "19"
+  },
+  {
+    "id": "009102",
+    "nombre": "Britalia",
+    "localidad": "11"
+  },
+  {
+    "id": "008535",
+    "nombre": "Buenavista",
+    "localidad": "01"
+  },
+  {
+    "id": "001102",
+    "nombre": "Buenos Aires",
+    "localidad": "04"
+  },
+  {
+    "id": "004601",
+    "nombre": "Calandaima",
+    "localidad": "08"
+  },
+  {
+    "id": "001419",
+    "nombre": "Callejon Santa Barbara",
+    "localidad": "18"
+  },
+  {
+    "id": "001210",
+    "nombre": "Calvo Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "009219",
+    "nombre": "Campanella",
+    "localidad": "11"
+  },
+  {
+    "id": "007201",
+    "nombre": "Campin",
+    "localidad": "13"
+  },
+  {
+    "id": "005105",
+    "nombre": "Campin Occidental",
+    "localidad": "13"
+  },
+  {
+    "id": "005114",
+    "nombre": "Campo Eucaristico",
+    "localidad": "13"
+  },
+  {
+    "id": "004558",
+    "nombre": "Campo Hermoso",
+    "localidad": "08"
+  },
+  {
+    "id": "001330",
+    "nombre": "Canada O Guira",
+    "localidad": "04"
+  },
+  {
+    "id": "008544",
+    "nombre": "Canaima",
+    "localidad": "01"
+  },
+  {
+    "id": "004634",
+    "nombre": "Canaveralejo",
+    "localidad": "07"
+  },
+  {
+    "id": "002531",
+    "nombre": "Candelaria La Nueva",
+    "localidad": "19"
+  },
+  {
+    "id": "009130",
+    "nombre": "Canodromo",
+    "localidad": "11"
+  },
+  {
+    "id": "009103",
+    "nombre": "Cantagallo",
+    "localidad": "11"
+  },
+  {
+    "id": "004645",
+    "nombre": "Cañaveralejo I",
+    "localidad": "07"
+  },
+  {
+    "id": "008518",
+    "nombre": "Caobos Salazar",
+    "localidad": "01"
+  },
+  {
+    "id": "006302",
+    "nombre": "Capellania",
+    "localidad": "09"
+  },
+  {
+    "id": "001203",
+    "nombre": "Caracas",
+    "localidad": "15"
+  },
+  {
+    "id": "002445",
+    "nombre": "Caracoli",
+    "localidad": "19"
+  },
+  {
+    "id": "001434",
+    "nombre": "Carmen Del Sol",
+    "localidad": "18"
+  },
+  {
+    "id": "009258",
+    "nombre": "Casa Blanca Suba I",
+    "localidad": "11"
+  },
+  {
+    "id": "004576",
+    "nombre": "Casa Blanca Sur",
+    "localidad": "08"
+  },
+  {
+    "id": "002534",
+    "nombre": "Casa De Teja",
+    "localidad": "19"
+  },
+  {
+    "id": "004537",
+    "nombre": "Casablanca",
+    "localidad": "08"
+  },
+  {
+    "id": "009215",
+    "nombre": "Casablanca Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "009136",
+    "nombre": "Casablanca Suba Urbano",
+    "localidad": "11"
+  },
+  {
+    "id": "009138",
+    "nombre": "Casablanca Suba Urbano I",
+    "localidad": "11"
+  },
+  {
+    "id": "009139",
+    "nombre": "Casablanca Suba Urbano Ii",
+    "localidad": "11"
+  },
+  {
+    "id": "006506",
+    "nombre": "Castilla",
+    "localidad": "08"
+  },
+  {
+    "id": "004545",
+    "nombre": "Catalina",
+    "localidad": "08"
+  },
+  {
+    "id": "004540",
+    "nombre": "Catalina Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "008111",
+    "nombre": "Cataluna",
+    "localidad": "02"
+  },
+  {
+    "id": "008512",
+    "nombre": "Cedritos",
+    "localidad": "01"
+  },
+  {
+    "id": "002574",
+    "nombre": "Cedritos Del Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "008511",
+    "nombre": "Cedro Narvaez",
+    "localidad": "01"
+  },
+  {
+    "id": "008508",
+    "nombre": "Cedro Salazar",
+    "localidad": "01"
+  },
+  {
+    "id": "004529",
+    "nombre": "Cementerio Jardines Apogeo",
+    "localidad": "07"
+  },
+  {
+    "id": "002303",
+    "nombre": "Centenario",
+    "localidad": "18"
+  },
+  {
+    "id": "002562",
+    "nombre": "Central De Mezclas",
+    "localidad": "19"
+  },
+  {
+    "id": "003106",
+    "nombre": "Centro Administrativo",
+    "localidad": "17"
+  },
+  {
+    "id": "005109",
+    "nombre": "Centro Administrativo Occ.",
+    "localidad": "13"
+  },
+  {
+    "id": "005667",
+    "nombre": "Centro Engativa Ii",
+    "localidad": "10"
+  },
+  {
+    "id": "006410",
+    "nombre": "Centro Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "006218",
+    "nombre": "Centro Industrial",
+    "localidad": "16"
+  },
+  {
+    "id": "006210",
+    "nombre": "Centro Narino",
+    "localidad": "13"
+  },
+  {
+    "id": "002599",
+    "nombre": "Centro Usme Urbano",
+    "localidad": "05"
+  },
+  {
+    "id": "002644",
+    "nombre": "Centro Usme Urbano I",
+    "localidad": "05"
+  },
+  {
+    "id": "002575",
+    "nombre": "Cerro Colorado",
+    "localidad": "19"
+  },
+  {
+    "id": "001428",
+    "nombre": "Cerros De Oriente",
+    "localidad": "18"
+  },
+  {
+    "id": "002610",
+    "nombre": "Chapinerito",
+    "localidad": "05"
+  },
+  {
+    "id": "008213",
+    "nombre": "Chapinero Central",
+    "localidad": "02"
+  },
+  {
+    "id": "008214",
+    "nombre": "Chapinero Norte",
+    "localidad": "02"
+  },
+  {
+    "id": "007203",
+    "nombre": "Chapinero Occidental",
+    "localidad": "13"
+  },
+  {
+    "id": "002611",
+    "nombre": "Charala",
+    "localidad": "05"
+  },
+  {
+    "id": "006411",
+    "nombre": "Charco Urbano",
+    "localidad": "09"
+  },
+  {
+    "id": "004574",
+    "nombre": "Charles De Gaulle",
+    "localidad": "07"
+  },
+  {
+    "id": "004605",
+    "nombre": "Chicala",
+    "localidad": "07"
+  },
+  {
+    "id": "008307",
+    "nombre": "Chico Norte",
+    "localidad": "02"
+  },
+  {
+    "id": "008301",
+    "nombre": "Chico Norte Ii Sector",
+    "localidad": "02"
+  },
+  {
+    "id": "008315",
+    "nombre": "Chico Norte Iii Sector",
+    "localidad": "02"
+  },
+  {
+    "id": "004595",
+    "nombre": "Chico Sur",
+    "localidad": "07"
+  },
+  {
+    "id": "001358",
+    "nombre": "Chiguaza Urbano",
+    "localidad": "04"
+  },
+  {
+    "id": "004621",
+    "nombre": "Chucua De La Vaca I",
+    "localidad": "08"
+  },
+  {
+    "id": "004620",
+    "nombre": "Chucua De La Vaca Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "004619",
+    "nombre": "Chucua De La Vaca Iii",
+    "localidad": "08"
+  },
+  {
+    "id": "002537",
+    "nombre": "Chuniza",
+    "localidad": "05"
+  },
+  {
+    "id": "005630",
+    "nombre": "Ciudad Bachue",
+    "localidad": "10"
+  },
+  {
+    "id": "005631",
+    "nombre": "Ciudad Bachue I Etapa",
+    "localidad": "10"
+  },
+  {
+    "id": "005682",
+    "nombre": "Ciudad Bachue Ii",
+    "localidad": "10"
+  },
+  {
+    "id": "001202",
+    "nombre": "Ciudad Berna",
+    "localidad": "15"
+  },
+  {
+    "id": "002453",
+    "nombre": "Ciudad Bolivar",
+    "localidad": "19"
+  },
+  {
+    "id": "004607",
+    "nombre": "Ciudad De Cali",
+    "localidad": "08"
+  },
+  {
+    "id": "006320",
+    "nombre": "Ciudad Hayuelos",
+    "localidad": "09"
+  },
+  {
+    "id": "009235",
+    "nombre": "Ciudad Hunza",
+    "localidad": "11"
+  },
+  {
+    "id": "009108",
+    "nombre": "Ciudad Jardin Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "001204",
+    "nombre": "Ciudad Jardin Sur",
+    "localidad": "15"
+  },
+  {
+    "id": "004509",
+    "nombre": "Ciudad Kennedy",
+    "localidad": "08"
+  },
+  {
+    "id": "004511",
+    "nombre": "Ciudad Kennedy Central",
+    "localidad": "08"
+  },
+  {
+    "id": "004514",
+    "nombre": "Ciudad Kennedy Norte",
+    "localidad": "08"
+  },
+  {
+    "id": "004508",
+    "nombre": "Ciudad Kennedy Occidental",
+    "localidad": "08"
+  },
+  {
+    "id": "004510",
+    "nombre": "Ciudad Kennedy Oriental",
+    "localidad": "08"
+  },
+  {
+    "id": "004507",
+    "nombre": "Ciudad Kennedy Sur",
+    "localidad": "08"
+  },
+  {
+    "id": "001346",
+    "nombre": "Ciudad Londres I",
+    "localidad": "04"
+  },
+  {
+    "id": "006216",
+    "nombre": "Ciudad Salitre Nor-oriental",
+    "localidad": "13"
+  },
+  {
+    "id": "006217",
+    "nombre": "Ciudad Salitre Sur-oriental",
+    "localidad": "13"
+  },
+  {
+    "id": "006531",
+    "nombre": "Ciudad Techo Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "005108",
+    "nombre": "Ciudad Universitaria",
+    "localidad": "13"
+  },
+  {
+    "id": "005650",
+    "nombre": "Ciudadela Colsubsidio",
+    "localidad": "10"
+  },
+  {
+    "id": "004573",
+    "nombre": "Ciudadela El Recreo",
+    "localidad": "07"
+  },
+  {
+    "id": "004638",
+    "nombre": "Ciudadela El Recreo Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "002308",
+    "nombre": "Claret",
+    "localidad": "18"
+  },
+  {
+    "id": "004535",
+    "nombre": "Class",
+    "localidad": "08"
+  },
+  {
+    "id": "009121",
+    "nombre": "Club De Los Lagartos",
+    "localidad": "11"
+  },
+  {
+    "id": "001363",
+    "nombre": "Colmena I Los Pinares",
+    "localidad": "04"
+  },
+  {
+    "id": "007303",
+    "nombre": "Colombia",
+    "localidad": "12"
+  },
+  {
+    "id": "004308",
+    "nombre": "Colon",
+    "localidad": "16"
+  },
+  {
+    "id": "006109",
+    "nombre": "Colseguros",
+    "localidad": "14"
+  },
+  {
+    "id": "002504",
+    "nombre": "Compartir",
+    "localidad": "19"
+  },
+  {
+    "id": "002543",
+    "nombre": "Comuneros",
+    "localidad": "05"
+  },
+  {
+    "id": "004202",
+    "nombre": "Comuneros",
+    "localidad": "16"
+  },
+  {
+    "id": "007304",
+    "nombre": "Concepcion Norte",
+    "localidad": "12"
+  },
+  {
+    "id": "009142",
+    "nombre": "Conejera",
+    "localidad": "11"
+  },
+  {
+    "id": "006501",
+    "nombre": "Cooperativa De Sub-oficiales",
+    "localidad": "08"
+  },
+  {
+    "id": "004547",
+    "nombre": "Corabastos",
+    "localidad": "08"
+  },
+  {
+    "id": "002561",
+    "nombre": "Cordillera Del Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "001303",
+    "nombre": "Cordoba",
+    "localidad": "04"
+  },
+  {
+    "id": "004572",
+    "nombre": "Corredor Ferreo Del Sur",
+    "localidad": "08"
+  },
+  {
+    "id": "009208",
+    "nombre": "Costa Azul",
+    "localidad": "11"
+  },
+  {
+    "id": "008402",
+    "nombre": "Country Club",
+    "localidad": "01"
+  },
+  {
+    "id": "006211",
+    "nombre": "Cundinamarca",
+    "localidad": "16"
+  },
+  {
+    "id": "002519",
+    "nombre": "Danubio",
+    "localidad": "05"
+  },
+  {
+    "id": "002577",
+    "nombre": "Danubio Ii",
+    "localidad": "05"
+  },
+  {
+    "id": "009246",
+    "nombre": "Delmonte",
+    "localidad": "11"
+  },
+  {
+    "id": "002592",
+    "nombre": "Desarrollo Brazuelos",
+    "localidad": "05"
+  },
+  {
+    "id": "002556",
+    "nombre": "Desarrollo Brazuelos I",
+    "localidad": "05"
+  },
+  {
+    "id": "001421",
+    "nombre": "Diana Turbay",
+    "localidad": "18"
+  },
+  {
+    "id": "001422",
+    "nombre": "Diana Turbay Arrayanes",
+    "localidad": "18"
+  },
+  {
+    "id": "001432",
+    "nombre": "Diana Turbay Cultivos",
+    "localidad": "18"
+  },
+  {
+    "id": "004612",
+    "nombre": "Dindalito",
+    "localidad": "08"
+  },
+  {
+    "id": "004614",
+    "nombre": "Dindalito",
+    "localidad": "08"
+  },
+  {
+    "id": "004618",
+    "nombre": "Dintalito",
+    "localidad": "08"
+  },
+  {
+    "id": "005202",
+    "nombre": "Doce De Octubre",
+    "localidad": "12"
+  },
+  {
+    "id": "001345",
+    "nombre": "Dona Liliana",
+    "localidad": "05"
+  },
+  {
+    "id": "002550",
+    "nombre": "Duitama",
+    "localidad": "05"
+  },
+  {
+    "id": "002301",
+    "nombre": "Eduardo Frey",
+    "localidad": "15"
+  },
+  {
+    "id": "004105",
+    "nombre": "Eduardo Santos",
+    "localidad": "14"
+  },
+  {
+    "id": "003105",
+    "nombre": "Egipto",
+    "localidad": "17"
+  },
+  {
+    "id": "008319",
+    "nombre": "El Bagazal",
+    "localidad": "02"
+  },
+  {
+    "id": "002609",
+    "nombre": "El Bosque",
+    "localidad": "05"
+  },
+  {
+    "id": "002608",
+    "nombre": "El Bosque Central I",
+    "localidad": "05"
+  },
+  {
+    "id": "004559",
+    "nombre": "El Carmelo",
+    "localidad": "08"
+  },
+  {
+    "id": "002407",
+    "nombre": "El Carmen",
+    "localidad": "06"
+  },
+  {
+    "id": "006408",
+    "nombre": "El Carmen Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "005662",
+    "nombre": "El Cedro",
+    "localidad": "10"
+  },
+  {
+    "id": "005629",
+    "nombre": "El Cedro",
+    "localidad": "10"
+  },
+  {
+    "id": "008527",
+    "nombre": "El Cerezo",
+    "localidad": "01"
+  },
+  {
+    "id": "006525",
+    "nombre": "El Chanco I",
+    "localidad": "09"
+  },
+  {
+    "id": "006535",
+    "nombre": "El Chanco Iii",
+    "localidad": "09"
+  },
+  {
+    "id": "008308",
+    "nombre": "El Chico",
+    "localidad": "02"
+  },
+  {
+    "id": "002435",
+    "nombre": "El Chircal Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "008514",
+    "nombre": "El Contador",
+    "localidad": "01"
+  },
+  {
+    "id": "005634",
+    "nombre": "El Cortijo",
+    "localidad": "10"
+  },
+  {
+    "id": "004631",
+    "nombre": "El Corzo",
+    "localidad": "07"
+  },
+  {
+    "id": "004643",
+    "nombre": "El Corzo I",
+    "localidad": "07"
+  },
+  {
+    "id": "004646",
+    "nombre": "El Corzo Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "002606",
+    "nombre": "El Curubo",
+    "localidad": "05"
+  },
+  {
+    "id": "004588",
+    "nombre": "El Danubio Azul",
+    "localidad": "07"
+  },
+  {
+    "id": "003209",
+    "nombre": "El Dorado",
+    "localidad": "03"
+  },
+  {
+    "id": "005664",
+    "nombre": "El Dorado",
+    "localidad": "10"
+  },
+  {
+    "id": "005663",
+    "nombre": "El Dorado Industrial",
+    "localidad": "10"
+  },
+  {
+    "id": "006206",
+    "nombre": "El Ejido",
+    "localidad": "16"
+  },
+  {
+    "id": "005605",
+    "nombre": "El Encanto",
+    "localidad": "10"
+  },
+  {
+    "id": "002416",
+    "nombre": "El Ensueno",
+    "localidad": "19"
+  },
+  {
+    "id": "005669",
+    "nombre": "El Gaco",
+    "localidad": "10"
+  },
+  {
+    "id": "003205",
+    "nombre": "El Guavio",
+    "localidad": "03"
+  },
+  {
+    "id": "004561",
+    "nombre": "El Jardin",
+    "localidad": "07"
+  },
+  {
+    "id": "004611",
+    "nombre": "El Jazmin",
+    "localidad": "08"
+  },
+  {
+    "id": "005510",
+    "nombre": "El Laurel",
+    "localidad": "10"
+  },
+  {
+    "id": "006106",
+    "nombre": "El Liston",
+    "localidad": "14"
+  },
+  {
+    "id": "005635",
+    "nombre": "El Madrigal",
+    "localidad": "10"
+  },
+  {
+    "id": "005601",
+    "nombre": "El Minuto De Dios",
+    "localidad": "10"
+  },
+  {
+    "id": "002564",
+    "nombre": "El Minuto De Maria",
+    "localidad": "19"
+  },
+  {
+    "id": "002570",
+    "nombre": "El Mirador",
+    "localidad": "19"
+  },
+  {
+    "id": "002447",
+    "nombre": "El Mirador De La Estancia",
+    "localidad": "19"
+  },
+  {
+    "id": "002584",
+    "nombre": "El Mochuelo",
+    "localidad": "19"
+  },
+  {
+    "id": "002598",
+    "nombre": "El Mochuelo Ii Urbano",
+    "localidad": "19"
+  },
+  {
+    "id": "002522",
+    "nombre": "El Mochuelo Oriental",
+    "localidad": "19"
+  },
+  {
+    "id": "002585",
+    "nombre": "El Mochuelo Urbano",
+    "localidad": "19"
+  },
+  {
+    "id": "005652",
+    "nombre": "El Muelle",
+    "localidad": "10"
+  },
+  {
+    "id": "002631",
+    "nombre": "El Nevado",
+    "localidad": "05"
+  },
+  {
+    "id": "002629",
+    "nombre": "El Nevado Ii",
+    "localidad": "05"
+  },
+  {
+    "id": "008311",
+    "nombre": "El Nogal",
+    "localidad": "02"
+  },
+  {
+    "id": "002616",
+    "nombre": "El Nuevo Portal",
+    "localidad": "05"
+  },
+  {
+    "id": "002620",
+    "nombre": "El Nuevo Portal Ii",
+    "localidad": "05"
+  },
+  {
+    "id": "009144",
+    "nombre": "El Otoño I",
+    "localidad": "11"
+  },
+  {
+    "id": "004603",
+    "nombre": "El Paraiso",
+    "localidad": "08"
+  },
+  {
+    "id": "008110",
+    "nombre": "El Paraiso",
+    "localidad": "02"
+  },
+  {
+    "id": "001329",
+    "nombre": "El Paraiso",
+    "localidad": "04"
+  },
+  {
+    "id": "004541",
+    "nombre": "El Paraiso Bosa",
+    "localidad": "08"
+  },
+  {
+    "id": "002563",
+    "nombre": "El Pedregal",
+    "localidad": "05"
+  },
+  {
+    "id": "002640",
+    "nombre": "El Pedregal Ii",
+    "localidad": "05"
+  },
+  {
+    "id": "002433",
+    "nombre": "El Penon Del Cortijo",
+    "localidad": "19"
+  },
+  {
+    "id": "001324",
+    "nombre": "El Pinar",
+    "localidad": "04"
+  },
+  {
+    "id": "009213",
+    "nombre": "El Pino",
+    "localidad": "11"
+  },
+  {
+    "id": "009128",
+    "nombre": "El Plan",
+    "localidad": "11"
+  },
+  {
+    "id": "001420",
+    "nombre": "El Playon",
+    "localidad": "18"
+  },
+  {
+    "id": "009211",
+    "nombre": "El Poa",
+    "localidad": "11"
+  },
+  {
+    "id": "004591",
+    "nombre": "El Portal Del Brasil",
+    "localidad": "07"
+  },
+  {
+    "id": "002630",
+    "nombre": "El Portal Del Divino",
+    "localidad": "05"
+  },
+  {
+    "id": "002642",
+    "nombre": "El Portal Urbano",
+    "localidad": "05"
+  },
+  {
+    "id": "004111",
+    "nombre": "El Progreso",
+    "localidad": "14"
+  },
+  {
+    "id": "002613",
+    "nombre": "El Progreso Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "005604",
+    "nombre": "El Real",
+    "localidad": "10"
+  },
+  {
+    "id": "006201",
+    "nombre": "El Recuerdo",
+    "localidad": "13"
+  },
+  {
+    "id": "008532",
+    "nombre": "El Redil",
+    "localidad": "01"
+  },
+  {
+    "id": "008303",
+    "nombre": "El Refugio",
+    "localidad": "02"
+  },
+  {
+    "id": "006419",
+    "nombre": "El Refugio",
+    "localidad": "09"
+  },
+  {
+    "id": "002617",
+    "nombre": "El Refugio I",
+    "localidad": "05"
+  },
+  {
+    "id": "008320",
+    "nombre": "El Refugio Zona Ii",
+    "localidad": "02"
+  },
+  {
+    "id": "004625",
+    "nombre": "El Remanso I",
+    "localidad": "07"
+  },
+  {
+    "id": "004533",
+    "nombre": "El Retazo",
+    "localidad": "07"
+  },
+  {
+    "id": "008310",
+    "nombre": "El Retiro",
+    "localidad": "02"
+  },
+  {
+    "id": "009202",
+    "nombre": "El Rincon",
+    "localidad": "11"
+  },
+  {
+    "id": "009204",
+    "nombre": "El Rincon Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "003208",
+    "nombre": "El Rocio",
+    "localidad": "03"
+  },
+  {
+    "id": "008522",
+    "nombre": "El Rocio Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "005104",
+    "nombre": "El Rosario",
+    "localidad": "12"
+  },
+  {
+    "id": "004536",
+    "nombre": "El Rubi",
+    "localidad": "08"
+  },
+  {
+    "id": "005110",
+    "nombre": "El Salitre",
+    "localidad": "13"
+  },
+  {
+    "id": "002643",
+    "nombre": "El Salteador",
+    "localidad": "05"
+  },
+  {
+    "id": "002545",
+    "nombre": "El Satelite",
+    "localidad": "19"
+  },
+  {
+    "id": "002547",
+    "nombre": "El Tesoro",
+    "localidad": "19"
+  },
+  {
+    "id": "006423",
+    "nombre": "El Tintal Central",
+    "localidad": "09"
+  },
+  {
+    "id": "006522",
+    "nombre": "El Tintal Ii",
+    "localidad": "09"
+  },
+  {
+    "id": "006533",
+    "nombre": "El Tintal Iii",
+    "localidad": "08"
+  },
+  {
+    "id": "006534",
+    "nombre": "El Tintal Iv",
+    "localidad": "08"
+  },
+  {
+    "id": "008501",
+    "nombre": "El Toberin",
+    "localidad": "01"
+  },
+  {
+    "id": "001121",
+    "nombre": "El Triangulo I",
+    "localidad": "04"
+  },
+  {
+    "id": "002634",
+    "nombre": "El Tuno",
+    "localidad": "05"
+  },
+  {
+    "id": "004106",
+    "nombre": "El Vergel",
+    "localidad": "14"
+  },
+  {
+    "id": "006528",
+    "nombre": "El Vergel",
+    "localidad": "09"
+  },
+  {
+    "id": "006529",
+    "nombre": "El Vergel Oriental",
+    "localidad": "08"
+  },
+  {
+    "id": "008526",
+    "nombre": "El Vervenal",
+    "localidad": "01"
+  },
+  {
+    "id": "002548",
+    "nombre": "El Virrey",
+    "localidad": "05"
+  },
+  {
+    "id": "008202",
+    "nombre": "Emaus",
+    "localidad": "02"
+  },
+  {
+    "id": "005636",
+    "nombre": "Engativa Zona Urbana",
+    "localidad": "10"
+  },
+  {
+    "id": "005306",
+    "nombre": "Entrerios",
+    "localidad": "12"
+  },
+  {
+    "id": "004519",
+    "nombre": "Escocia",
+    "localidad": "07"
+  },
+  {
+    "id": "004579",
+    "nombre": "Escocia",
+    "localidad": "07"
+  },
+  {
+    "id": "008409",
+    "nombre": "Escuela De Caballeria I",
+    "localidad": "01"
+  },
+  {
+    "id": "008419",
+    "nombre": "Escuela De Caballeria Ii",
+    "localidad": "01"
+  },
+  {
+    "id": "009132",
+    "nombre": "Escuela De Carabineros",
+    "localidad": "11"
+  },
+  {
+    "id": "008410",
+    "nombre": "Escuela De Infanteria",
+    "localidad": "01"
+  },
+  {
+    "id": "002405",
+    "nombre": "Escuela General Santander",
+    "localidad": "06"
+  },
+  {
+    "id": "005310",
+    "nombre": "Escuela Militar",
+    "localidad": "12"
+  },
+  {
+    "id": "008312",
+    "nombre": "Espartillal",
+    "localidad": "02"
+  },
+  {
+    "id": "002423",
+    "nombre": "Espino",
+    "localidad": "19"
+  },
+  {
+    "id": "002449",
+    "nombre": "Espino I",
+    "localidad": "19"
+  },
+  {
+    "id": "006204",
+    "nombre": "Estacion Central",
+    "localidad": "16"
+  },
+  {
+    "id": "009126",
+    "nombre": "Estoril",
+    "localidad": "11"
+  },
+  {
+    "id": "007106",
+    "nombre": "Estrella",
+    "localidad": "13"
+  },
+  {
+    "id": "008519",
+    "nombre": "Estrella Del Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "002540",
+    "nombre": "Estrella Del Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "002408",
+    "nombre": "Fatima",
+    "localidad": "06"
+  },
+  {
+    "id": "006405",
+    "nombre": "Ferrocaja Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "002602",
+    "nombre": "Fiscala Alta",
+    "localidad": "05"
+  },
+  {
+    "id": "005620",
+    "nombre": "Florencia",
+    "localidad": "10"
+  },
+  {
+    "id": "006101",
+    "nombre": "Florida",
+    "localidad": "14"
+  },
+  {
+    "id": "005621",
+    "nombre": "Florida Blanca",
+    "localidad": "10"
+  },
+  {
+    "id": "006308",
+    "nombre": "Franco",
+    "localidad": "09"
+  },
+  {
+    "id": "004627",
+    "nombre": "Galan",
+    "localidad": "08"
+  },
+  {
+    "id": "004304",
+    "nombre": "Galan",
+    "localidad": "16"
+  },
+  {
+    "id": "007207",
+    "nombre": "Galerias",
+    "localidad": "13"
+  },
+  {
+    "id": "002427",
+    "nombre": "Galicia",
+    "localidad": "19"
+  },
+  {
+    "id": "005627",
+    "nombre": "Garces Navas",
+    "localidad": "10"
+  },
+  {
+    "id": "005628",
+    "nombre": "Garces Navas Oriental",
+    "localidad": "10"
+  },
+  {
+    "id": "005655",
+    "nombre": "Garces Navas Sur",
+    "localidad": "10"
+  },
+  {
+    "id": "002554",
+    "nombre": "Gibraltar Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "009114",
+    "nombre": "Gilmar",
+    "localidad": "11"
+  },
+  {
+    "id": "008405",
+    "nombre": "Ginebra",
+    "localidad": "01"
+  },
+  {
+    "id": "008425",
+    "nombre": "Ginebra Ii",
+    "localidad": "01"
+  },
+  {
+    "id": "003211",
+    "nombre": "Girardot",
+    "localidad": "03"
+  },
+  {
+    "id": "004207",
+    "nombre": "Gorgonzola",
+    "localidad": "16"
+  },
+  {
+    "id": "006202",
+    "nombre": "Gran America",
+    "localidad": "13"
+  },
+  {
+    "id": "004557",
+    "nombre": "Gran Britalia",
+    "localidad": "08"
+  },
+  {
+    "id": "004556",
+    "nombre": "Gran Britalia I",
+    "localidad": "08"
+  },
+  {
+    "id": "004539",
+    "nombre": "Gran Colombiano",
+    "localidad": "07"
+  },
+  {
+    "id": "005654",
+    "nombre": "Gran Granada",
+    "localidad": "10"
+  },
+  {
+    "id": "002506",
+    "nombre": "Gran Yomasa",
+    "localidad": "05"
+  },
+  {
+    "id": "008204",
+    "nombre": "Granada",
+    "localidad": "02"
+  },
+  {
+    "id": "009101",
+    "nombre": "Granada Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "002541",
+    "nombre": "Granada Sur",
+    "localidad": "05"
+  },
+  {
+    "id": "001301",
+    "nombre": "Granada Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "001425",
+    "nombre": "Granjas De Santa Sofia",
+    "localidad": "18"
+  },
+  {
+    "id": "006306",
+    "nombre": "Granjas De Techo",
+    "localidad": "09"
+  },
+  {
+    "id": "001412",
+    "nombre": "Granjas San Pablo",
+    "localidad": "18"
+  },
+  {
+    "id": "004563",
+    "nombre": "Guadalupe",
+    "localidad": "19"
+  },
+  {
+    "id": "006407",
+    "nombre": "Guadual Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "004552",
+    "nombre": "Gualoche",
+    "localidad": "07"
+  },
+  {
+    "id": "001429",
+    "nombre": "Guiparma",
+    "localidad": "18"
+  },
+  {
+    "id": "001402",
+    "nombre": "Gustavo Restrepo",
+    "localidad": "18"
+  },
+  {
+    "id": "004501",
+    "nombre": "Hipotecho",
+    "localidad": "08"
+  },
+  {
+    "id": "004502",
+    "nombre": "Hipotecho Occidental",
+    "localidad": "08"
+  },
+  {
+    "id": "004551",
+    "nombre": "Hipotecho Sur",
+    "localidad": "08"
+  },
+  {
+    "id": "008533",
+    "nombre": "Horizontes Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "001403",
+    "nombre": "Hospital San Carlos",
+    "localidad": "18"
+  },
+  {
+    "id": "009115",
+    "nombre": "Iberia",
+    "localidad": "11"
+  },
+  {
+    "id": "006205",
+    "nombre": "Industrial Centenario",
+    "localidad": "16"
+  },
+  {
+    "id": "008215",
+    "nombre": "Ingemar",
+    "localidad": "02"
+  },
+  {
+    "id": "008321",
+    "nombre": "Ingemar Oriental Ii",
+    "localidad": "02"
+  },
+  {
+    "id": "002307",
+    "nombre": "Ingles",
+    "localidad": "18"
+  },
+  {
+    "id": "006527",
+    "nombre": "Interindustrial",
+    "localidad": "09"
+  },
+  {
+    "id": "009247",
+    "nombre": "Iragua",
+    "localidad": "11"
+  },
+  {
+    "id": "002411",
+    "nombre": "Isla Del Sol",
+    "localidad": "06"
+  },
+  {
+    "id": "004642",
+    "nombre": "Islandia",
+    "localidad": "07"
+  },
+  {
+    "id": "002414",
+    "nombre": "Ismael Perdomo",
+    "localidad": "19"
+  },
+  {
+    "id": "004517",
+    "nombre": "Jacqueline",
+    "localidad": "08"
+  },
+  {
+    "id": "005506",
+    "nombre": "Jardin Botanico",
+    "localidad": "10"
+  },
+  {
+    "id": "002434",
+    "nombre": "Jerusalen",
+    "localidad": "19"
+  },
+  {
+    "id": "004523",
+    "nombre": "Jimenez De Quesada",
+    "localidad": "07"
+  },
+  {
+    "id": "004586",
+    "nombre": "Jimenez De Quesada Ii Sector",
+    "localidad": "07"
+  },
+  {
+    "id": "005201",
+    "nombre": "Jorge Eliecer Gaitan",
+    "localidad": "12"
+  },
+  {
+    "id": "004210",
+    "nombre": "Jorge Gaitan Cortes",
+    "localidad": "16"
+  },
+  {
+    "id": "004568",
+    "nombre": "Jorge Uribe Botero",
+    "localidad": "08"
+  },
+  {
+    "id": "004569",
+    "nombre": "Jose Antonio Galan",
+    "localidad": "07"
+  },
+  {
+    "id": "005101",
+    "nombre": "Jose Joaquin Vargas",
+    "localidad": "12"
+  },
+  {
+    "id": "004550",
+    "nombre": "Jose Maria Carbonel",
+    "localidad": "07"
+  },
+  {
+    "id": "002557",
+    "nombre": "Juan Jose Rondon",
+    "localidad": "19"
+  },
+  {
+    "id": "001336",
+    "nombre": "Juan Jose Rondon I",
+    "localidad": "05"
+  },
+  {
+    "id": "002552",
+    "nombre": "Juan Pablo Ii",
+    "localidad": "19"
+  },
+  {
+    "id": "001325",
+    "nombre": "Juan Rey (la Paz)",
+    "localidad": "04"
+  },
+  {
+    "id": "001347",
+    "nombre": "Juan Rey Sur",
+    "localidad": "05"
+  },
+  {
+    "id": "008211",
+    "nombre": "Juan Xxiii",
+    "localidad": "02"
+  },
+  {
+    "id": "007402",
+    "nombre": "Juan Xxiii",
+    "localidad": "12"
+  },
+  {
+    "id": "005403",
+    "nombre": "Julio Florez",
+    "localidad": "11"
+  },
+  {
+    "id": "006532",
+    "nombre": "Kasandra",
+    "localidad": "09"
+  },
+  {
+    "id": "003101",
+    "nombre": "La Alameda",
+    "localidad": "03"
+  },
+  {
+    "id": "002523",
+    "nombre": "La Alameda",
+    "localidad": "19"
+  },
+  {
+    "id": "002524",
+    "nombre": "La Andrea",
+    "localidad": "05"
+  },
+  {
+    "id": "004203",
+    "nombre": "La Asuncion",
+    "localidad": "16"
+  },
+  {
+    "id": "002503",
+    "nombre": "La Aurora",
+    "localidad": "05"
+  },
+  {
+    "id": "007407",
+    "nombre": "La Aurora",
+    "localidad": "12"
+  },
+  {
+    "id": "001338",
+    "nombre": "La Belleza",
+    "localidad": "04"
+  },
+  {
+    "id": "005508",
+    "nombre": "La Cabana",
+    "localidad": "10"
+  },
+  {
+    "id": "002527",
+    "nombre": "La Cabana",
+    "localidad": "05"
+  },
+  {
+    "id": "001348",
+    "nombre": "La Cabana",
+    "localidad": "05"
+  },
+  {
+    "id": "004632",
+    "nombre": "La Cabana",
+    "localidad": "07"
+  },
+  {
+    "id": "006402",
+    "nombre": "La Cabana Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "008309",
+    "nombre": "La Cabrera",
+    "localidad": "02"
+  },
+  {
+    "id": "008401",
+    "nombre": "La Calleja",
+    "localidad": "01"
+  },
+  {
+    "id": "004309",
+    "nombre": "La Camelia",
+    "localidad": "16"
+  },
+  {
+    "id": "004317",
+    "nombre": "La Camelia Ii",
+    "localidad": "16"
+  },
+  {
+    "id": "004506",
+    "nombre": "La Campina",
+    "localidad": "08"
+  },
+  {
+    "id": "009141",
+    "nombre": "La Candelaria",
+    "localidad": "11"
+  },
+  {
+    "id": "003108",
+    "nombre": "La Capuchina",
+    "localidad": "03"
+  },
+  {
+    "id": "008403",
+    "nombre": "La Carolina",
+    "localidad": "01"
+  },
+  {
+    "id": "009236",
+    "nombre": "La Carolina De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "005304",
+    "nombre": "La Castellana",
+    "localidad": "12"
+  },
+  {
+    "id": "003110",
+    "nombre": "La Catedral",
+    "localidad": "17"
+  },
+  {
+    "id": "004532",
+    "nombre": "La Cecilia",
+    "localidad": "08"
+  },
+  {
+    "id": "009221",
+    "nombre": "La Chucua",
+    "localidad": "11"
+  },
+  {
+    "id": "008504",
+    "nombre": "La Cita",
+    "localidad": "01"
+  },
+  {
+    "id": "002612",
+    "nombre": "La Comuna",
+    "localidad": "05"
+  },
+  {
+    "id": "003104",
+    "nombre": "La Concordia",
+    "localidad": "17"
+  },
+  {
+    "id": "002420",
+    "nombre": "La Coruna",
+    "localidad": "19"
+  },
+  {
+    "id": "005111",
+    "nombre": "La Esmeralda",
+    "localidad": "13"
+  },
+  {
+    "id": "007305",
+    "nombre": "La Esperanza",
+    "localidad": "12"
+  },
+  {
+    "id": "002615",
+    "nombre": "La Esperanza De Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "006303",
+    "nombre": "La Esperanza Norte",
+    "localidad": "09"
+  },
+  {
+    "id": "002607",
+    "nombre": "La Esperanza Sur",
+    "localidad": "05"
+  },
+  {
+    "id": "006315",
+    "nombre": "La Esperanza Sur",
+    "localidad": "09"
+  },
+  {
+    "id": "004521",
+    "nombre": "La Estacion Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "002418",
+    "nombre": "La Estancia",
+    "localidad": "19"
+  },
+  {
+    "id": "004104",
+    "nombre": "La Estanzuela",
+    "localidad": "14"
+  },
+  {
+    "id": "005502",
+    "nombre": "La Estrada",
+    "localidad": "10"
+  },
+  {
+    "id": "005504",
+    "nombre": "La Estradita",
+    "localidad": "10"
+  },
+  {
+    "id": "008540",
+    "nombre": "La Estrellita I",
+    "localidad": "01"
+  },
+  {
+    "id": "008549",
+    "nombre": "La Estrellita I",
+    "localidad": "01"
+  },
+  {
+    "id": "008547",
+    "nombre": "La Estrellita Iii",
+    "localidad": "01"
+  },
+  {
+    "id": "005666",
+    "nombre": "La Faena",
+    "localidad": "10"
+  },
+  {
+    "id": "006104",
+    "nombre": "La Favorita",
+    "localidad": "14"
+  },
+  {
+    "id": "002590",
+    "nombre": "La Fiscala",
+    "localidad": "05"
+  },
+  {
+    "id": "002597",
+    "nombre": "La Fiscala Norte",
+    "localidad": "05"
+  },
+  {
+    "id": "006203",
+    "nombre": "La Florida Occidental",
+    "localidad": "16"
+  },
+  {
+    "id": "002107",
+    "nombre": "La Fragua",
+    "localidad": "15"
+  },
+  {
+    "id": "002101",
+    "nombre": "La Fraguita",
+    "localidad": "15"
+  },
+  {
+    "id": "009216",
+    "nombre": "La Gaitana",
+    "localidad": "11"
+  },
+  {
+    "id": "009262",
+    "nombre": "La Gaitana Oriental",
+    "localidad": "11"
+  },
+  {
+    "id": "006420",
+    "nombre": "La Giralda",
+    "localidad": "09"
+  },
+  {
+    "id": "001311",
+    "nombre": "La Gloria Occidental",
+    "localidad": "04"
+  },
+  {
+    "id": "001319",
+    "nombre": "La Gloria Oriental",
+    "localidad": "04"
+  },
+  {
+    "id": "005610",
+    "nombre": "La Granja",
+    "localidad": "10"
+  },
+  {
+    "id": "008524",
+    "nombre": "La Granja Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "001208",
+    "nombre": "La Hortua",
+    "localidad": "15"
+  },
+  {
+    "id": "002636",
+    "nombre": "La Huerta",
+    "localidad": "05"
+  },
+  {
+    "id": "004641",
+    "nombre": "La Independencia",
+    "localidad": "07"
+  },
+  {
+    "id": "006415",
+    "nombre": "La Laguna Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "008517",
+    "nombre": "La Liberia",
+    "localidad": "01"
+  },
+  {
+    "id": "004593",
+    "nombre": "La Libertad",
+    "localidad": "07"
+  },
+  {
+    "id": "005206",
+    "nombre": "La Libertad",
+    "localidad": "12"
+  },
+  {
+    "id": "008105",
+    "nombre": "La Macarena",
+    "localidad": "03"
+  },
+  {
+    "id": "007103",
+    "nombre": "La Magdalena",
+    "localidad": "13"
+  },
+  {
+    "id": "006524",
+    "nombre": "La Magdalena",
+    "localidad": "08"
+  },
+  {
+    "id": "001109",
+    "nombre": "La Maria",
+    "localidad": "04"
+  },
+  {
+    "id": "002529",
+    "nombre": "La Marichuela",
+    "localidad": "05"
+  },
+  {
+    "id": "008103",
+    "nombre": "La Merced",
+    "localidad": "03"
+  },
+  {
+    "id": "007301",
+    "nombre": "La Merced Norte",
+    "localidad": "12"
+  },
+  {
+    "id": "002614",
+    "nombre": "La Orquidea De Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "006511",
+    "nombre": "La Pampa",
+    "localidad": "08"
+  },
+  {
+    "id": "005305",
+    "nombre": "La Patria",
+    "localidad": "12"
+  },
+  {
+    "id": "002566",
+    "nombre": "La Paz",
+    "localidad": "18"
+  },
+  {
+    "id": "007310",
+    "nombre": "La Paz",
+    "localidad": "12"
+  },
+  {
+    "id": "004520",
+    "nombre": "La Paz Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "003206",
+    "nombre": "La Pena",
+    "localidad": "03"
+  },
+  {
+    "id": "003221",
+    "nombre": "La Peña I",
+    "localidad": "03"
+  },
+  {
+    "id": "004110",
+    "nombre": "La Pepita",
+    "localidad": "14"
+  },
+  {
+    "id": "008104",
+    "nombre": "La Perseverancia",
+    "localidad": "03"
+  },
+  {
+    "id": "002511",
+    "nombre": "La Picota",
+    "localidad": "18"
+  },
+  {
+    "id": "002510",
+    "nombre": "La Picota Oriental",
+    "localidad": "18"
+  },
+  {
+    "id": "004305",
+    "nombre": "La Pradera",
+    "localidad": "16"
+  },
+  {
+    "id": "002437",
+    "nombre": "La Pradera",
+    "localidad": "19"
+  },
+  {
+    "id": "008502",
+    "nombre": "La Pradera Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "002443",
+    "nombre": "La Primavera I",
+    "localidad": "19"
+  },
+  {
+    "id": "002627",
+    "nombre": "La Reforma",
+    "localidad": "05"
+  },
+  {
+    "id": "002632",
+    "nombre": "La Requilina",
+    "localidad": "05"
+  },
+  {
+    "id": "001413",
+    "nombre": "La Resurreccion",
+    "localidad": "18"
+  },
+  {
+    "id": "001431",
+    "nombre": "La Resurreccion I",
+    "localidad": "18"
+  },
+  {
+    "id": "005670",
+    "nombre": "La Riviera",
+    "localidad": "10"
+  },
+  {
+    "id": "004102",
+    "nombre": "La Sabana",
+    "localidad": "14"
+  },
+  {
+    "id": "008206",
+    "nombre": "La Salle",
+    "localidad": "02"
+  },
+  {
+    "id": "005613",
+    "nombre": "La Serena",
+    "localidad": "10"
+  },
+  {
+    "id": "007101",
+    "nombre": "La Soledad",
+    "localidad": "13"
+  },
+  {
+    "id": "005615",
+    "nombre": "La Soledad Norte",
+    "localidad": "10"
+  },
+  {
+    "id": "002581",
+    "nombre": "La Torre",
+    "localidad": "19"
+  },
+  {
+    "id": "004306",
+    "nombre": "La Trinidad",
+    "localidad": "16"
+  },
+  {
+    "id": "008525",
+    "nombre": "La Uribe",
+    "localidad": "01"
+  },
+  {
+    "id": "002455",
+    "nombre": "La Valvanera",
+    "localidad": "19"
+  },
+  {
+    "id": "004624",
+    "nombre": "La Vega San Bernardino",
+    "localidad": "07"
+  },
+  {
+    "id": "001310",
+    "nombre": "La Victoria",
+    "localidad": "04"
+  },
+  {
+    "id": "009220",
+    "nombre": "Lago De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "008313",
+    "nombre": "Lago Gaitan",
+    "localidad": "02"
+  },
+  {
+    "id": "002595",
+    "nombre": "Lagunitas Urbano",
+    "localidad": "19"
+  },
+  {
+    "id": "004626",
+    "nombre": "Las Acacias",
+    "localidad": "08"
+  },
+  {
+    "id": "008203",
+    "nombre": "Las Acacias",
+    "localidad": "02"
+  },
+  {
+    "id": "002513",
+    "nombre": "Las Acacias",
+    "localidad": "19"
+  },
+  {
+    "id": "003103",
+    "nombre": "Las Aguas",
+    "localidad": "17"
+  },
+  {
+    "id": "007107",
+    "nombre": "Las Americas",
+    "localidad": "13"
+  },
+  {
+    "id": "002430",
+    "nombre": "Las Brisas",
+    "localidad": "19"
+  },
+  {
+    "id": "001101",
+    "nombre": "Las Brisas",
+    "localidad": "04"
+  },
+  {
+    "id": "003202",
+    "nombre": "Las Cruces",
+    "localidad": "03"
+  },
+  {
+    "id": "004544",
+    "nombre": "Las Delicias",
+    "localidad": "08"
+  },
+  {
+    "id": "006508",
+    "nombre": "Las Dos Avenidas",
+    "localidad": "08"
+  },
+  {
+    "id": "005404",
+    "nombre": "Las Ferias",
+    "localidad": "10"
+  },
+  {
+    "id": "005405",
+    "nombre": "Las Ferias Occidental",
+    "localidad": "10"
+  },
+  {
+    "id": "009210",
+    "nombre": "Las Flores",
+    "localidad": "11"
+  },
+  {
+    "id": "001334",
+    "nombre": "Las Gaviotas",
+    "localidad": "04"
+  },
+  {
+    "id": "001355",
+    "nombre": "Las Guacamayas I",
+    "localidad": "04"
+  },
+  {
+    "id": "001352",
+    "nombre": "Las Guacamayas Ii",
+    "localidad": "04"
+  },
+  {
+    "id": "001354",
+    "nombre": "Las Guacamayas Iii",
+    "localidad": "04"
+  },
+  {
+    "id": "001353",
+    "nombre": "Las Guacamayas Iv",
+    "localidad": "04"
+  },
+  {
+    "id": "001409",
+    "nombre": "Las Lomas",
+    "localidad": "04"
+  },
+  {
+    "id": "002520",
+    "nombre": "Las Manas",
+    "localidad": "19"
+  },
+  {
+    "id": "004637",
+    "nombre": "Las Margaritas",
+    "localidad": "07"
+  },
+  {
+    "id": "008530",
+    "nombre": "Las Margaritas",
+    "localidad": "01"
+  },
+  {
+    "id": "004316",
+    "nombre": "Las Margaritas",
+    "localidad": "08"
+  },
+  {
+    "id": "001107",
+    "nombre": "Las Mercedes",
+    "localidad": "04"
+  },
+  {
+    "id": "009243",
+    "nombre": "Las Mercedes I",
+    "localidad": "11"
+  },
+  {
+    "id": "009239",
+    "nombre": "Las Mercedes Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "005672",
+    "nombre": "Las Navetas",
+    "localidad": "09"
+  },
+  {
+    "id": "003102",
+    "nombre": "Las Nieves",
+    "localidad": "03"
+  },
+  {
+    "id": "008516",
+    "nombre": "Las Orquideas",
+    "localidad": "01"
+  },
+  {
+    "id": "009122",
+    "nombre": "Las Villas",
+    "localidad": "11"
+  },
+  {
+    "id": "002633",
+    "nombre": "Las Violetas",
+    "localidad": "05"
+  },
+  {
+    "id": "009227",
+    "nombre": "Lech Walesa",
+    "localidad": "11"
+  },
+  {
+    "id": "002305",
+    "nombre": "Libertador",
+    "localidad": "18"
+  },
+  {
+    "id": "009254",
+    "nombre": "Lisboa",
+    "localidad": "11"
+  },
+  {
+    "id": "008513",
+    "nombre": "Lisboa",
+    "localidad": "01"
+  },
+  {
+    "id": "004562",
+    "nombre": "Llano Grande",
+    "localidad": "08"
+  },
+  {
+    "id": "009228",
+    "nombre": "Lombardia",
+    "localidad": "11"
+  },
+  {
+    "id": "005626",
+    "nombre": "Los Alamos",
+    "localidad": "10"
+  },
+  {
+    "id": "005625",
+    "nombre": "Los Alamos",
+    "localidad": "10"
+  },
+  {
+    "id": "004609",
+    "nombre": "Los Almendros",
+    "localidad": "08"
+  },
+  {
+    "id": "001312",
+    "nombre": "Los Alpes",
+    "localidad": "04"
+  },
+  {
+    "id": "002559",
+    "nombre": "Los Alpes Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "005307",
+    "nombre": "Los Andes",
+    "localidad": "12"
+  },
+  {
+    "id": "005623",
+    "nombre": "Los Angeles",
+    "localidad": "10"
+  },
+  {
+    "id": "001435",
+    "nombre": "Los Arrayanes Ii",
+    "localidad": "18"
+  },
+  {
+    "id": "008515",
+    "nombre": "Los Cedros",
+    "localidad": "01"
+  },
+  {
+    "id": "008509",
+    "nombre": "Los Cedros Oriental",
+    "localidad": "01"
+  },
+  {
+    "id": "005616",
+    "nombre": "Los Cerezos",
+    "localidad": "10"
+  },
+  {
+    "id": "004208",
+    "nombre": "Los Ejidos",
+    "localidad": "16"
+  },
+  {
+    "id": "003207",
+    "nombre": "Los Laches",
+    "localidad": "03"
+  },
+  {
+    "id": "004575",
+    "nombre": "Los Laureles",
+    "localidad": "07"
+  },
+  {
+    "id": "002544",
+    "nombre": "Los Laureles Ii",
+    "localidad": "19"
+  },
+  {
+    "id": "001118",
+    "nombre": "Los Laureles Sur Oriental I",
+    "localidad": "04"
+  },
+  {
+    "id": "001327",
+    "nombre": "Los Libertadores",
+    "localidad": "04"
+  },
+  {
+    "id": "001417",
+    "nombre": "Los Molinos",
+    "localidad": "18"
+  },
+  {
+    "id": "009201",
+    "nombre": "Los Naranjos",
+    "localidad": "11"
+  },
+  {
+    "id": "002604",
+    "nombre": "Los Olivares",
+    "localidad": "05"
+  },
+  {
+    "id": "008304",
+    "nombre": "Los Rosales",
+    "localidad": "02"
+  },
+  {
+    "id": "004587",
+    "nombre": "Los Sauces",
+    "localidad": "07"
+  },
+  {
+    "id": "001344",
+    "nombre": "Los Soches",
+    "localidad": "05"
+  },
+  {
+    "id": "002446",
+    "nombre": "Los Tres Reyes",
+    "localidad": "19"
+  },
+  {
+    "id": "002441",
+    "nombre": "Los Tres Reyes I",
+    "localidad": "19"
+  },
+  {
+    "id": "003212",
+    "nombre": "Lourdes",
+    "localidad": "03"
+  },
+  {
+    "id": "002521",
+    "nombre": "Lucero Alto",
+    "localidad": "19"
+  },
+  {
+    "id": "002517",
+    "nombre": "Lucero Del Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "005661",
+    "nombre": "Luis Carlos Galan",
+    "localidad": "10"
+  },
+  {
+    "id": "006509",
+    "nombre": "Lusitania",
+    "localidad": "08"
+  },
+  {
+    "id": "002415",
+    "nombre": "Madelena",
+    "localidad": "19"
+  },
+  {
+    "id": "004531",
+    "nombre": "Mandalay",
+    "localidad": "08"
+  },
+  {
+    "id": "005665",
+    "nombre": "Marandu",
+    "localidad": "10"
+  },
+  {
+    "id": "001410",
+    "nombre": "Marco Fidel Suarez",
+    "localidad": "18"
+  },
+  {
+    "id": "001415",
+    "nombre": "Marco Fidel Suarez I",
+    "localidad": "18"
+  },
+  {
+    "id": "002429",
+    "nombre": "Maria Cano",
+    "localidad": "19"
+  },
+  {
+    "id": "008205",
+    "nombre": "Maria Cristina",
+    "localidad": "02"
+  },
+  {
+    "id": "006517",
+    "nombre": "Maria Paz",
+    "localidad": "08"
+  },
+  {
+    "id": "008212",
+    "nombre": "Marly",
+    "localidad": "02"
+  },
+  {
+    "id": "001418",
+    "nombre": "Marruecos",
+    "localidad": "18"
+  },
+  {
+    "id": "006502",
+    "nombre": "Marsella",
+    "localidad": "08"
+  },
+  {
+    "id": "009110",
+    "nombre": "Mazuren",
+    "localidad": "11"
+  },
+  {
+    "id": "002514",
+    "nombre": "Meissen",
+    "localidad": "19"
+  },
+  {
+    "id": "005207",
+    "nombre": "Metropolis",
+    "localidad": "12"
+  },
+  {
+    "id": "002516",
+    "nombre": "Mexico",
+    "localidad": "19"
+  },
+  {
+    "id": "002502",
+    "nombre": "Millan",
+    "localidad": "19"
+  },
+  {
+    "id": "008545",
+    "nombre": "Mirador Del Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "009133",
+    "nombre": "Mirandela",
+    "localidad": "11"
+  },
+  {
+    "id": "006311",
+    "nombre": "Modelia",
+    "localidad": "09"
+  },
+  {
+    "id": "006312",
+    "nombre": "Modelia Occidental",
+    "localidad": "09"
+  },
+  {
+    "id": "001209",
+    "nombre": "Modelo Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "001104",
+    "nombre": "Molinos De Oriente",
+    "localidad": "04"
+  },
+  {
+    "id": "001414",
+    "nombre": "Molinos Del Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "008416",
+    "nombre": "Molinos Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "009111",
+    "nombre": "Monaco",
+    "localidad": "11"
+  },
+  {
+    "id": "001115",
+    "nombre": "Monte Carlo",
+    "localidad": "04"
+  },
+  {
+    "id": "001302",
+    "nombre": "Montebello",
+    "localidad": "04"
+  },
+  {
+    "id": "002536",
+    "nombre": "Monteblanco",
+    "localidad": "05"
+  },
+  {
+    "id": "004204",
+    "nombre": "Montes",
+    "localidad": "16"
+  },
+  {
+    "id": "006307",
+    "nombre": "Montevideo",
+    "localidad": "09"
+  },
+  {
+    "id": "001316",
+    "nombre": "Moralba",
+    "localidad": "04"
+  },
+  {
+    "id": "006519",
+    "nombre": "Moravia",
+    "localidad": "09"
+  },
+  {
+    "id": "007307",
+    "nombre": "Muequeta",
+    "localidad": "12"
+  },
+  {
+    "id": "002310",
+    "nombre": "Murillo Toro",
+    "localidad": "18"
+  },
+  {
+    "id": "002413",
+    "nombre": "Muzu",
+    "localidad": "06"
+  },
+  {
+    "id": "002546",
+    "nombre": "Naciones Unidas",
+    "localidad": "19"
+  },
+  {
+    "id": "001207",
+    "nombre": "Narino Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "005106",
+    "nombre": "Nicolas De Federman",
+    "localidad": "13"
+  },
+  {
+    "id": "009123",
+    "nombre": "Niza Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "009112",
+    "nombre": "Niza Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "009109",
+    "nombre": "Niza Sur",
+    "localidad": "11"
+  },
+  {
+    "id": "005507",
+    "nombre": "Normandia",
+    "localidad": "10"
+  },
+  {
+    "id": "005606",
+    "nombre": "Normandia Occidental",
+    "localidad": "10"
+  },
+  {
+    "id": "009140",
+    "nombre": "Nuestra Senora Del Rosario",
+    "localidad": "11"
+  },
+  {
+    "id": "001323",
+    "nombre": "Nueva Delhi",
+    "localidad": "04"
+  },
+  {
+    "id": "001320",
+    "nombre": "Nueva Gloria",
+    "localidad": "04"
+  },
+  {
+    "id": "004527",
+    "nombre": "Nueva Granada Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "009224",
+    "nombre": "Nueva Tibabuyes",
+    "localidad": "11"
+  },
+  {
+    "id": "004549",
+    "nombre": "Nueva York",
+    "localidad": "08"
+  },
+  {
+    "id": "009120",
+    "nombre": "Nueva Zelandia",
+    "localidad": "11"
+  },
+  {
+    "id": "002409",
+    "nombre": "Nuevo Muzu",
+    "localidad": "06"
+  },
+  {
+    "id": "002505",
+    "nombre": "Nuevo San Andres",
+    "localidad": "05"
+  },
+  {
+    "id": "006507",
+    "nombre": "Nuevo Techo",
+    "localidad": "08"
+  },
+  {
+    "id": "004538",
+    "nombre": "Olarte",
+    "localidad": "07"
+  },
+  {
+    "id": "002201",
+    "nombre": "Olaya",
+    "localidad": "18"
+  },
+  {
+    "id": "007405",
+    "nombre": "Once De Noviembre",
+    "localidad": "12"
+  },
+  {
+    "id": "006208",
+    "nombre": "Ortezal",
+    "localidad": "16"
+  },
+  {
+    "id": "006518",
+    "nombre": "Osorio Iii",
+    "localidad": "08"
+  },
+  {
+    "id": "004616",
+    "nombre": "Osorio X Urbano",
+    "localidad": "07"
+  },
+  {
+    "id": "004615",
+    "nombre": "Osorio Xii",
+    "localidad": "08"
+  },
+  {
+    "id": "004406",
+    "nombre": "Ospina Perez",
+    "localidad": "16"
+  },
+  {
+    "id": "004405",
+    "nombre": "Ospina Perez Sur",
+    "localidad": "16"
+  },
+  {
+    "id": "005116",
+    "nombre": "Pablo Vi Norte",
+    "localidad": "13"
+  },
+  {
+    "id": "007205",
+    "nombre": "Palermo",
+    "localidad": "13"
+  },
+  {
+    "id": "002535",
+    "nombre": "Palermo Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "005501",
+    "nombre": "Palo Blanco",
+    "localidad": "10"
+  },
+  {
+    "id": "006107",
+    "nombre": "Paloquemao",
+    "localidad": "14"
+  },
+  {
+    "id": "002565",
+    "nombre": "Paraiso Quiba",
+    "localidad": "19"
+  },
+  {
+    "id": "008420",
+    "nombre": "Paramo Urbano I",
+    "localidad": "01"
+  },
+  {
+    "id": "004630",
+    "nombre": "Parcela El Porvenir",
+    "localidad": "07"
+  },
+  {
+    "id": "008208",
+    "nombre": "Pardo Rubio",
+    "localidad": "02"
+  },
+  {
+    "id": "005619",
+    "nombre": "Paris",
+    "localidad": "10"
+  },
+  {
+    "id": "005612",
+    "nombre": "Paris Gaitan",
+    "localidad": "10"
+  },
+  {
+    "id": "005112",
+    "nombre": "Parque Distrital Salitre",
+    "localidad": "12"
+  },
+  {
+    "id": "002410",
+    "nombre": "Parque El Tunal",
+    "localidad": "06"
+  },
+  {
+    "id": "008102",
+    "nombre": "Parque Nacional",
+    "localidad": "03"
+  },
+  {
+    "id": "008114",
+    "nombre": "Parque Nacional Urbano",
+    "localidad": "17"
+  },
+  {
+    "id": "005115",
+    "nombre": "Parque Popular Salitre",
+    "localidad": "12"
+  },
+  {
+    "id": "009125",
+    "nombre": "Pasadena",
+    "localidad": "11"
+  },
+  {
+    "id": "004528",
+    "nombre": "Paso Ancho",
+    "localidad": "07"
+  },
+  {
+    "id": "004525",
+    "nombre": "Pastrana",
+    "localidad": "08"
+  },
+  {
+    "id": "004554",
+    "nombre": "Patio Bonito",
+    "localidad": "08"
+  },
+  {
+    "id": "004555",
+    "nombre": "Patio Bonito Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "004566",
+    "nombre": "Patio Bonito Iii",
+    "localidad": "08"
+  },
+  {
+    "id": "005113",
+    "nombre": "Paulo Vi",
+    "localidad": "13"
+  },
+  {
+    "id": "004201",
+    "nombre": "Pensilvania",
+    "localidad": "16"
+  },
+  {
+    "id": "002448",
+    "nombre": "Perdomo Alto",
+    "localidad": "19"
+  },
+  {
+    "id": "002450",
+    "nombre": "Perdomo Alto",
+    "localidad": "19"
+  },
+  {
+    "id": "009245",
+    "nombre": "Pinos De Lombardia",
+    "localidad": "11"
+  },
+  {
+    "id": "006505",
+    "nombre": "Pio Xii",
+    "localidad": "08"
+  },
+  {
+    "id": "001211",
+    "nombre": "Policarpa",
+    "localidad": "15"
+  },
+  {
+    "id": "007401",
+    "nombre": "Polo Club",
+    "localidad": "12"
+  },
+  {
+    "id": "005102",
+    "nombre": "Popular Modelo",
+    "localidad": "12"
+  },
+  {
+    "id": "008306",
+    "nombre": "Porciuncula",
+    "localidad": "02"
+  },
+  {
+    "id": "009135",
+    "nombre": "Portales Del Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "002589",
+    "nombre": "Porvenir",
+    "localidad": "05"
+  },
+  {
+    "id": "002431",
+    "nombre": "Potosi",
+    "localidad": "19"
+  },
+  {
+    "id": "005401",
+    "nombre": "Potosi",
+    "localidad": "11"
+  },
+  {
+    "id": "009240",
+    "nombre": "Potrerillo",
+    "localidad": "11"
+  },
+  {
+    "id": "009105",
+    "nombre": "Prado Pinzon",
+    "localidad": "11"
+  },
+  {
+    "id": "009107",
+    "nombre": "Prado Veraniego",
+    "localidad": "11"
+  },
+  {
+    "id": "009116",
+    "nombre": "Prado Veraniego Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "009117",
+    "nombre": "Prado Veraniego Sur",
+    "localidad": "11"
+  },
+  {
+    "id": "005617",
+    "nombre": "Primavera",
+    "localidad": "10"
+  },
+  {
+    "id": "002428",
+    "nombre": "Primavera Ii",
+    "localidad": "19"
+  },
+  {
+    "id": "004205",
+    "nombre": "Primavera Occidental",
+    "localidad": "16"
+  },
+  {
+    "id": "001112",
+    "nombre": "Primero De Mayo",
+    "localidad": "04"
+  },
+  {
+    "id": "004504",
+    "nombre": "Provivienda",
+    "localidad": "08"
+  },
+  {
+    "id": "004310",
+    "nombre": "Provivienda Norte",
+    "localidad": "16"
+  },
+  {
+    "id": "004613",
+    "nombre": "Provivienda Occidental",
+    "localidad": "08"
+  },
+  {
+    "id": "004505",
+    "nombre": "Provivienda Occidental",
+    "localidad": "08"
+  },
+  {
+    "id": "004503",
+    "nombre": "Provivienda Oriental",
+    "localidad": "08"
+  },
+  {
+    "id": "005673",
+    "nombre": "Pueblo Viejo",
+    "localidad": "09"
+  },
+  {
+    "id": "006215",
+    "nombre": "Puente Aranda",
+    "localidad": "16"
+  },
+  {
+    "id": "001317",
+    "nombre": "Puente Colorado",
+    "localidad": "04"
+  },
+  {
+    "id": "006418",
+    "nombre": "Puente Grande",
+    "localidad": "09"
+  },
+  {
+    "id": "009124",
+    "nombre": "Puente Largo",
+    "localidad": "11"
+  },
+  {
+    "id": "002618",
+    "nombre": "Puerta Al Llano De Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "002645",
+    "nombre": "Puerta Al Llano I",
+    "localidad": "05"
+  },
+  {
+    "id": "006404",
+    "nombre": "Puerta De Teja",
+    "localidad": "09"
+  },
+  {
+    "id": "009203",
+    "nombre": "Puerta Del Sol",
+    "localidad": "11"
+  },
+  {
+    "id": "001427",
+    "nombre": "Puerto Rico",
+    "localidad": "18"
+  },
+  {
+    "id": "007204",
+    "nombre": "Quesada",
+    "localidad": "13"
+  },
+  {
+    "id": "002530",
+    "nombre": "Quiba",
+    "localidad": "19"
+  },
+  {
+    "id": "002456",
+    "nombre": "Quiba I",
+    "localidad": "19"
+  },
+  {
+    "id": "002583",
+    "nombre": "Quiba Urbano",
+    "localidad": "19"
+  },
+  {
+    "id": "001318",
+    "nombre": "Quindio",
+    "localidad": "04"
+  },
+  {
+    "id": "008201",
+    "nombre": "Quinta Camacho",
+    "localidad": "02"
+  },
+  {
+    "id": "007308",
+    "nombre": "Quinta Mutis",
+    "localidad": "12"
+  },
+  {
+    "id": "006209",
+    "nombre": "Quinta Paredes",
+    "localidad": "13"
+  },
+  {
+    "id": "001206",
+    "nombre": "Quinta Ramos",
+    "localidad": "04"
+  },
+  {
+    "id": "002532",
+    "nombre": "Quintas Del Sur",
+    "localidad": "19"
+  },
+  {
+    "id": "005683",
+    "nombre": "Quirigua I",
+    "localidad": "10"
+  },
+  {
+    "id": "005684",
+    "nombre": "Quirigua Ii",
+    "localidad": "10"
+  },
+  {
+    "id": "005639",
+    "nombre": "Quirigua Oriental",
+    "localidad": "10"
+  },
+  {
+    "id": "002202",
+    "nombre": "Quiroga",
+    "localidad": "18"
+  },
+  {
+    "id": "002203",
+    "nombre": "Quiroga Central",
+    "localidad": "18"
+  },
+  {
+    "id": "002209",
+    "nombre": "Quiroga I",
+    "localidad": "18"
+  },
+  {
+    "id": "002204",
+    "nombre": "Quiroga Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "002421",
+    "nombre": "Rafael Escamilla",
+    "localidad": "19"
+  },
+  {
+    "id": "005117",
+    "nombre": "Rafael Nunez",
+    "localidad": "13"
+  },
+  {
+    "id": "007312",
+    "nombre": "Rafael Uribe",
+    "localidad": "12"
+  },
+  {
+    "id": "001307",
+    "nombre": "Ramajal",
+    "localidad": "04"
+  },
+  {
+    "id": "003210",
+    "nombre": "Ramirez",
+    "localidad": "03"
+  },
+  {
+    "id": "004402",
+    "nombre": "Remanso",
+    "localidad": "16"
+  },
+  {
+    "id": "004412",
+    "nombre": "Remanso Sur",
+    "localidad": "16"
+  },
+  {
+    "id": "004602",
+    "nombre": "Remanso Urbano",
+    "localidad": "07"
+  },
+  {
+    "id": "004582",
+    "nombre": "Renania Urapanes",
+    "localidad": "08"
+  },
+  {
+    "id": "002103",
+    "nombre": "Restrepo",
+    "localidad": "15"
+  },
+  {
+    "id": "002104",
+    "nombre": "Restrepo Occidental",
+    "localidad": "15"
+  },
+  {
+    "id": "004101",
+    "nombre": "Ricaurte",
+    "localidad": "14"
+  },
+  {
+    "id": "009266",
+    "nombre": "Rincon Altamar",
+    "localidad": "11"
+  },
+  {
+    "id": "002424",
+    "nombre": "Rincon De Galicia",
+    "localidad": "19"
+  },
+  {
+    "id": "002419",
+    "nombre": "Rincon De La Valvanera",
+    "localidad": "19"
+  },
+  {
+    "id": "009217",
+    "nombre": "Rincon De Santa Ines",
+    "localidad": "11"
+  },
+  {
+    "id": "009237",
+    "nombre": "Rincon De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "008411",
+    "nombre": "Rincon Del Chico",
+    "localidad": "01"
+  },
+  {
+    "id": "005308",
+    "nombre": "Rionegro",
+    "localidad": "12"
+  },
+  {
+    "id": "004534",
+    "nombre": "Roma",
+    "localidad": "08"
+  },
+  {
+    "id": "002518",
+    "nombre": "Ronda",
+    "localidad": "19"
+  },
+  {
+    "id": "009232",
+    "nombre": "Sabana De Tibabuyes",
+    "localidad": "11"
+  },
+  {
+    "id": "009234",
+    "nombre": "Sabana De Tibabuyes Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "005657",
+    "nombre": "Sabana Del Dorado",
+    "localidad": "10"
+  },
+  {
+    "id": "006521",
+    "nombre": "Sabana Grande",
+    "localidad": "09"
+  },
+  {
+    "id": "008101",
+    "nombre": "Sagrado Corazon",
+    "localidad": "03"
+  },
+  {
+    "id": "006212",
+    "nombre": "Salazar Gomez",
+    "localidad": "16"
+  },
+  {
+    "id": "002572",
+    "nombre": "Salazar Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "006313",
+    "nombre": "Salitre Occidental",
+    "localidad": "09"
+  },
+  {
+    "id": "009226",
+    "nombre": "Salitre Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "002406",
+    "nombre": "Samore",
+    "localidad": "06"
+  },
+  {
+    "id": "008108",
+    "nombre": "Samper",
+    "localidad": "03"
+  },
+  {
+    "id": "006108",
+    "nombre": "Samper Mendoza",
+    "localidad": "14"
+  },
+  {
+    "id": "001416",
+    "nombre": "San Agustin",
+    "localidad": "18"
+  },
+  {
+    "id": "004594",
+    "nombre": "San Antonio",
+    "localidad": "07"
+  },
+  {
+    "id": "002102",
+    "nombre": "San Antonio",
+    "localidad": "15"
+  },
+  {
+    "id": "002451",
+    "nombre": "San Antonio Del Mirador",
+    "localidad": "19"
+  },
+  {
+    "id": "005679",
+    "nombre": "San Antonio Engativa",
+    "localidad": "10"
+  },
+  {
+    "id": "008528",
+    "nombre": "San Antonio Noroccidental",
+    "localidad": "01"
+  },
+  {
+    "id": "008523",
+    "nombre": "San Antonio Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "005660",
+    "nombre": "San Antonio Urbano",
+    "localidad": "10"
+  },
+  {
+    "id": "002509",
+    "nombre": "San Benito",
+    "localidad": "06"
+  },
+  {
+    "id": "004597",
+    "nombre": "San Bernardino I",
+    "localidad": "07"
+  },
+  {
+    "id": "004635",
+    "nombre": "San Bernardino Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "004623",
+    "nombre": "San Bernardino Potreritos",
+    "localidad": "07"
+  },
+  {
+    "id": "004577",
+    "nombre": "San Bernardino Xxii Urbano",
+    "localidad": "07"
+  },
+  {
+    "id": "004590",
+    "nombre": "San Bernardino Xxv Urbano",
+    "localidad": "07"
+  },
+  {
+    "id": "003201",
+    "nombre": "San Bernardo",
+    "localidad": "03"
+  },
+  {
+    "id": "001106",
+    "nombre": "San Blas",
+    "localidad": "04"
+  },
+  {
+    "id": "001113",
+    "nombre": "San Blas Ii",
+    "localidad": "04"
+  },
+  {
+    "id": "002501",
+    "nombre": "San Carlos",
+    "localidad": "06"
+  },
+  {
+    "id": "009251",
+    "nombre": "San Carlos De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "009230",
+    "nombre": "San Cayetano",
+    "localidad": "11"
+  },
+  {
+    "id": "008505",
+    "nombre": "San Cristobal Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "001108",
+    "nombre": "San Cristobal Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "008107",
+    "nombre": "San Diego",
+    "localidad": "03"
+  },
+  {
+    "id": "004513",
+    "nombre": "San Diego-bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "004401",
+    "nombre": "San Eusebio",
+    "localidad": "16"
+  },
+  {
+    "id": "007403",
+    "nombre": "San Felipe",
+    "localidad": "12"
+  },
+  {
+    "id": "002621",
+    "nombre": "San Felipe De Usme",
+    "localidad": "05"
+  },
+  {
+    "id": "005203",
+    "nombre": "San Fernando",
+    "localidad": "12"
+  },
+  {
+    "id": "005204",
+    "nombre": "San Fernando Occidental",
+    "localidad": "12"
+  },
+  {
+    "id": "004206",
+    "nombre": "San Francisco",
+    "localidad": "16"
+  },
+  {
+    "id": "002515",
+    "nombre": "San Francisco",
+    "localidad": "19"
+  },
+  {
+    "id": "003215",
+    "nombre": "San Francisco Rural",
+    "localidad": "03"
+  },
+  {
+    "id": "004307",
+    "nombre": "San Gabriel",
+    "localidad": "16"
+  },
+  {
+    "id": "008406",
+    "nombre": "San Gabriel Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "008426",
+    "nombre": "San Gabriel Norte Ii",
+    "localidad": "01"
+  },
+  {
+    "id": "005607",
+    "nombre": "San Ignacio",
+    "localidad": "10"
+  },
+  {
+    "id": "001406",
+    "nombre": "San Isidro",
+    "localidad": "04"
+  },
+  {
+    "id": "001110",
+    "nombre": "San Javier",
+    "localidad": "04"
+  },
+  {
+    "id": "005509",
+    "nombre": "San Joaquin",
+    "localidad": "10"
+  },
+  {
+    "id": "001411",
+    "nombre": "San Jorge Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "009113",
+    "nombre": "San Jose De Bavaria",
+    "localidad": "11"
+  },
+  {
+    "id": "006403",
+    "nombre": "San Jose De Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "008529",
+    "nombre": "San Jose De Usaquen",
+    "localidad": "01"
+  },
+  {
+    "id": "009106",
+    "nombre": "San Jose Del Prado",
+    "localidad": "11"
+  },
+  {
+    "id": "001401",
+    "nombre": "San Jose Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "001314",
+    "nombre": "San Jose Sur Oriental",
+    "localidad": "04"
+  },
+  {
+    "id": "009134",
+    "nombre": "San Jose V Sector",
+    "localidad": "11"
+  },
+  {
+    "id": "002555",
+    "nombre": "San Juan Bautista",
+    "localidad": "05"
+  },
+  {
+    "id": "001426",
+    "nombre": "San Luis",
+    "localidad": "18"
+  },
+  {
+    "id": "007202",
+    "nombre": "San Luis",
+    "localidad": "13"
+  },
+  {
+    "id": "004592",
+    "nombre": "San Martin",
+    "localidad": "07"
+  },
+  {
+    "id": "008109",
+    "nombre": "San Martin",
+    "localidad": "03"
+  },
+  {
+    "id": "001321",
+    "nombre": "San Martin Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "005103",
+    "nombre": "San Miguel",
+    "localidad": "12"
+  },
+  {
+    "id": "004524",
+    "nombre": "San Pablo Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "006413",
+    "nombre": "San Pablo Jerico",
+    "localidad": "09"
+  },
+  {
+    "id": "008418",
+    "nombre": "San Patricio",
+    "localidad": "01"
+  },
+  {
+    "id": "009253",
+    "nombre": "San Pedro",
+    "localidad": "11"
+  },
+  {
+    "id": "001306",
+    "nombre": "San Pedro",
+    "localidad": "04"
+  },
+  {
+    "id": "004589",
+    "nombre": "San Pedro",
+    "localidad": "07"
+  },
+  {
+    "id": "006523",
+    "nombre": "San Pedro De Los Robles",
+    "localidad": "09"
+  },
+  {
+    "id": "001337",
+    "nombre": "San Pedro Sur",
+    "localidad": "05"
+  },
+  {
+    "id": "004302",
+    "nombre": "San Rafael",
+    "localidad": "16"
+  },
+  {
+    "id": "002539",
+    "nombre": "San Rafael",
+    "localidad": "19"
+  },
+  {
+    "id": "004301",
+    "nombre": "San Rafael Industrial",
+    "localidad": "16"
+  },
+  {
+    "id": "001322",
+    "nombre": "San Rafael Usme",
+    "localidad": "04"
+  },
+  {
+    "id": "001309",
+    "nombre": "San Vicente",
+    "localidad": "04"
+  },
+  {
+    "id": "002402",
+    "nombre": "San Vicente Ferrer",
+    "localidad": "06"
+  },
+  {
+    "id": "006105",
+    "nombre": "San Victorino",
+    "localidad": "14"
+  },
+  {
+    "id": "008408",
+    "nombre": "Santa Ana",
+    "localidad": "01"
+  },
+  {
+    "id": "008414",
+    "nombre": "Santa Ana Occidental",
+    "localidad": "01"
+  },
+  {
+    "id": "001111",
+    "nombre": "Santa Ana Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "003203",
+    "nombre": "Santa Barbara",
+    "localidad": "17"
+  },
+  {
+    "id": "008415",
+    "nombre": "Santa Barbara Central",
+    "localidad": "01"
+  },
+  {
+    "id": "008417",
+    "nombre": "Santa Barbara Occidental",
+    "localidad": "01"
+  },
+  {
+    "id": "008413",
+    "nombre": "Santa Barbara Oriental",
+    "localidad": "01"
+  },
+  {
+    "id": "008412",
+    "nombre": "Santa Bibiana",
+    "localidad": "01"
+  },
+  {
+    "id": "004584",
+    "nombre": "Santa Catalina",
+    "localidad": "08"
+  },
+  {
+    "id": "009256",
+    "nombre": "Santa Cecilia",
+    "localidad": "11"
+  },
+  {
+    "id": "005638",
+    "nombre": "Santa Cecilia",
+    "localidad": "10"
+  },
+  {
+    "id": "006301",
+    "nombre": "Santa Cecilia",
+    "localidad": "09"
+  },
+  {
+    "id": "009268",
+    "nombre": "Santa Cecilia De Suba I",
+    "localidad": "11"
+  },
+  {
+    "id": "008543",
+    "nombre": "Santa Cecilia Puente Norte",
+    "localidad": "01"
+  },
+  {
+    "id": "006103",
+    "nombre": "Santa Fe",
+    "localidad": "14"
+  },
+  {
+    "id": "004633",
+    "nombre": "Santa Fe Bosa",
+    "localidad": "07"
+  },
+  {
+    "id": "009131",
+    "nombre": "Santa Helena",
+    "localidad": "11"
+  },
+  {
+    "id": "005608",
+    "nombre": "Santa Helenita",
+    "localidad": "10"
+  },
+  {
+    "id": "003107",
+    "nombre": "Santa Ines",
+    "localidad": "03"
+  },
+  {
+    "id": "001308",
+    "nombre": "Santa Ines Sur",
+    "localidad": "04"
+  },
+  {
+    "id": "001357",
+    "nombre": "Santa Ines Sur Ii",
+    "localidad": "04"
+  },
+  {
+    "id": "004108",
+    "nombre": "Santa Isabel",
+    "localidad": "14"
+  },
+  {
+    "id": "004107",
+    "nombre": "Santa Isabel Sur",
+    "localidad": "14"
+  },
+  {
+    "id": "002526",
+    "nombre": "Santa Librada",
+    "localidad": "05"
+  },
+  {
+    "id": "002528",
+    "nombre": "Santa Librada Norte",
+    "localidad": "05"
+  },
+  {
+    "id": "002205",
+    "nombre": "Santa Lucia",
+    "localidad": "18"
+  },
+  {
+    "id": "005602",
+    "nombre": "Santa Maria",
+    "localidad": "10"
+  },
+  {
+    "id": "004209",
+    "nombre": "Santa Matilde",
+    "localidad": "16"
+  },
+  {
+    "id": "005641",
+    "nombre": "Santa Monica",
+    "localidad": "10"
+  },
+  {
+    "id": "009255",
+    "nombre": "Santa Rita De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "001328",
+    "nombre": "Santa Rita Sur Oriental",
+    "localidad": "04"
+  },
+  {
+    "id": "005402",
+    "nombre": "Santa Rosa",
+    "localidad": "11"
+  },
+  {
+    "id": "007406",
+    "nombre": "Santa Sofia",
+    "localidad": "12"
+  },
+  {
+    "id": "008503",
+    "nombre": "Santa Teresa",
+    "localidad": "01"
+  },
+  {
+    "id": "009238",
+    "nombre": "Santa Teresa De Suba",
+    "localidad": "11"
+  },
+  {
+    "id": "007102",
+    "nombre": "Santa Teresita",
+    "localidad": "13"
+  },
+  {
+    "id": "002442",
+    "nombre": "Santa Viviana",
+    "localidad": "19"
+  },
+  {
+    "id": "002105",
+    "nombre": "Santander",
+    "localidad": "15"
+  },
+  {
+    "id": "002302",
+    "nombre": "Santander Sur",
+    "localidad": "15"
+  },
+  {
+    "id": "002304",
+    "nombre": "Santiago Perez",
+    "localidad": "18"
+  },
+  {
+    "id": "002426",
+    "nombre": "Santo Domingo",
+    "localidad": "19"
+  },
+  {
+    "id": "004560",
+    "nombre": "Saucedal",
+    "localidad": "08"
+  },
+  {
+    "id": "008424",
+    "nombre": "Segundo Contador",
+    "localidad": "01"
+  },
+  {
+    "id": "008302",
+    "nombre": "Seminario",
+    "localidad": "02"
+  },
+  {
+    "id": "002106",
+    "nombre": "Sena",
+    "localidad": "15"
+  },
+  {
+    "id": "002542",
+    "nombre": "Serranias",
+    "localidad": "05"
+  },
+  {
+    "id": "002576",
+    "nombre": "Serranias I",
+    "localidad": "05"
+  },
+  {
+    "id": "001201",
+    "nombre": "Sevilla",
+    "localidad": "15"
+  },
+  {
+    "id": "008220",
+    "nombre": "Siberia Central",
+    "localidad": "02"
+  },
+  {
+    "id": "008322",
+    "nombre": "Siberia Urbano",
+    "localidad": "02"
+  },
+  {
+    "id": "008221",
+    "nombre": "Siberia Urbano",
+    "localidad": "02"
+  },
+  {
+    "id": "002440",
+    "nombre": "Sierra Morena",
+    "localidad": "19"
+  },
+  {
+    "id": "002439",
+    "nombre": "Sierra Morena",
+    "localidad": "19"
+  },
+  {
+    "id": "002438",
+    "nombre": "Sierra Morena",
+    "localidad": "19"
+  },
+  {
+    "id": "002444",
+    "nombre": "Sierra Morena Ii",
+    "localidad": "19"
+  },
+  {
+    "id": "007311",
+    "nombre": "Siete De Agosto",
+    "localidad": "12"
+  },
+  {
+    "id": "005205",
+    "nombre": "Simon Bolivar",
+    "localidad": "12"
+  },
+  {
+    "id": "001205",
+    "nombre": "Sociego",
+    "localidad": "04"
+  },
+  {
+    "id": "001404",
+    "nombre": "Sosiego Sur",
+    "localidad": "18"
+  },
+  {
+    "id": "002533",
+    "nombre": "Sotavento",
+    "localidad": "19"
+  },
+  {
+    "id": "009231",
+    "nombre": "Suba Cerros",
+    "localidad": "11"
+  },
+  {
+    "id": "009212",
+    "nombre": "Suba Urbano",
+    "localidad": "11"
+  },
+  {
+    "id": "008112",
+    "nombre": "Sucre",
+    "localidad": "02"
+  },
+  {
+    "id": "002553",
+    "nombre": "Sumapaz",
+    "localidad": "19"
+  },
+  {
+    "id": "001407",
+    "nombre": "Suramerica",
+    "localidad": "04"
+  },
+  {
+    "id": "005609",
+    "nombre": "Tabora",
+    "localidad": "10"
+  },
+  {
+    "id": "004564",
+    "nombre": "Tairona",
+    "localidad": "08"
+  },
+  {
+    "id": "004548",
+    "nombre": "Techo",
+    "localidad": "08"
+  },
+  {
+    "id": "004408",
+    "nombre": "Tejar",
+    "localidad": "16"
+  },
+  {
+    "id": "006319",
+    "nombre": "Terminal De Transportes",
+    "localidad": "09"
+  },
+  {
+    "id": "007104",
+    "nombre": "Teusaquillo",
+    "localidad": "13"
+  },
+  {
+    "id": "008521",
+    "nombre": "Tibabita",
+    "localidad": "01"
+  },
+  {
+    "id": "008542",
+    "nombre": "Tibabita I",
+    "localidad": "01"
+  },
+  {
+    "id": "009257",
+    "nombre": "Tibabuyes",
+    "localidad": "11"
+  },
+  {
+    "id": "009233",
+    "nombre": "Tibabuyes",
+    "localidad": "11"
+  },
+  {
+    "id": "009248",
+    "nombre": "Tibabuyes Ii",
+    "localidad": "11"
+  },
+  {
+    "id": "009250",
+    "nombre": "Tibabuyes Occidental",
+    "localidad": "11"
+  },
+  {
+    "id": "009225",
+    "nombre": "Tibabuyes Universal",
+    "localidad": "11"
+  },
+  {
+    "id": "004212",
+    "nombre": "Tibana",
+    "localidad": "16"
+  },
+  {
+    "id": "001116",
+    "nombre": "Tibaque Urbano",
+    "localidad": "04"
+  },
+  {
+    "id": "001340",
+    "nombre": "Tihuaque",
+    "localidad": "05"
+  },
+  {
+    "id": "004512",
+    "nombre": "Timiza",
+    "localidad": "08"
+  },
+  {
+    "id": "004518",
+    "nombre": "Timiza A",
+    "localidad": "08"
+  },
+  {
+    "id": "004530",
+    "nombre": "Timiza B",
+    "localidad": "08"
+  },
+  {
+    "id": "004581",
+    "nombre": "Timiza C",
+    "localidad": "08"
+  },
+  {
+    "id": "006516",
+    "nombre": "Tintala",
+    "localidad": "08"
+  },
+  {
+    "id": "004617",
+    "nombre": "Tintalito",
+    "localidad": "08"
+  },
+  {
+    "id": "002622",
+    "nombre": "Tocaimita Oriental I",
+    "localidad": "05"
+  },
+  {
+    "id": "004565",
+    "nombre": "Tocarema",
+    "localidad": "08"
+  },
+  {
+    "id": "008539",
+    "nombre": "Torca I",
+    "localidad": "01"
+  },
+  {
+    "id": "009229",
+    "nombre": "Toscana",
+    "localidad": "11"
+  },
+  {
+    "id": "009223",
+    "nombre": "Ttes De Colombia",
+    "localidad": "11"
+  },
+  {
+    "id": "009261",
+    "nombre": "Tuna",
+    "localidad": "11"
+  },
+  {
+    "id": "009214",
+    "nombre": "Tuna Alta",
+    "localidad": "11"
+  },
+  {
+    "id": "009242",
+    "nombre": "Tuna Baja",
+    "localidad": "11"
+  },
+  {
+    "id": "002401",
+    "nombre": "Tunal Oriental",
+    "localidad": "06"
+  },
+  {
+    "id": "004515",
+    "nombre": "Tundama",
+    "localidad": "08"
+  },
+  {
+    "id": "002593",
+    "nombre": "Tunjuelito",
+    "localidad": "05"
+  },
+  {
+    "id": "002508",
+    "nombre": "Tunjuelito",
+    "localidad": "06"
+  },
+  {
+    "id": "008407",
+    "nombre": "Usaquen",
+    "localidad": "01"
+  },
+  {
+    "id": "006110",
+    "nombre": "Usatama",
+    "localidad": "14"
+  },
+  {
+    "id": "002538",
+    "nombre": "Usminia",
+    "localidad": "05"
+  },
+  {
+    "id": "006515",
+    "nombre": "Valladolid",
+    "localidad": "08"
+  },
+  {
+    "id": "001405",
+    "nombre": "Veinte De Julio",
+    "localidad": "04"
+  },
+  {
+    "id": "001114",
+    "nombre": "Velodromo",
+    "localidad": "04"
+  },
+  {
+    "id": "002404",
+    "nombre": "Venecia",
+    "localidad": "06"
+  },
+  {
+    "id": "002403",
+    "nombre": "Venecia Occidental",
+    "localidad": "06"
+  },
+  {
+    "id": "003109",
+    "nombre": "Veracruz",
+    "localidad": "03"
+  },
+  {
+    "id": "004109",
+    "nombre": "Veraguas",
+    "localidad": "14"
+  },
+  {
+    "id": "008537",
+    "nombre": "Verbenal San Antonio",
+    "localidad": "01"
+  },
+  {
+    "id": "009265",
+    "nombre": "Vereda Suba Cerros Ii",
+    "localidad": "11"
+  },
+  {
+    "id": "009249",
+    "nombre": "Vereda Suba Naranjos",
+    "localidad": "11"
+  },
+  {
+    "id": "006514",
+    "nombre": "Vergel Occidental",
+    "localidad": "08"
+  },
+  {
+    "id": "002412",
+    "nombre": "Verona",
+    "localidad": "19"
+  },
+  {
+    "id": "006401",
+    "nombre": "Versalles Fontibon",
+    "localidad": "09"
+  },
+  {
+    "id": "009104",
+    "nombre": "Victoria Norte",
+    "localidad": "11"
+  },
+  {
+    "id": "009263",
+    "nombre": "Villa Alcazar",
+    "localidad": "11"
+  },
+  {
+    "id": "006512",
+    "nombre": "Villa Alsacia",
+    "localidad": "08"
+  },
+  {
+    "id": "006510",
+    "nombre": "Villa Alsacia Ii",
+    "localidad": "08"
+  },
+  {
+    "id": "005648",
+    "nombre": "Villa Amalia",
+    "localidad": "10"
+  },
+  {
+    "id": "002619",
+    "nombre": "Villa Anita",
+    "localidad": "05"
+  },
+  {
+    "id": "004598",
+    "nombre": "Villa Anny I",
+    "localidad": "07"
+  },
+  {
+    "id": "004599",
+    "nombre": "Villa Anny Ii",
+    "localidad": "07"
+  },
+  {
+    "id": "002579",
+    "nombre": "Villa Candelaria",
+    "localidad": "19"
+  },
+  {
+    "id": "006417",
+    "nombre": "Villa Carmenza",
+    "localidad": "09"
+  },
+  {
+    "id": "001408",
+    "nombre": "Villa De Los Alpes",
+    "localidad": "04"
+  },
+  {
+    "id": "001430",
+    "nombre": "Villa De Los Alpes I",
+    "localidad": "04"
+  },
+  {
+    "id": "001356",
+    "nombre": "Villa Del Cerro",
+    "localidad": "04"
+  },
+  {
+    "id": "005680",
+    "nombre": "Villa Del Mar",
+    "localidad": "10"
+  },
+  {
+    "id": "009129",
+    "nombre": "Villa Del Prado",
+    "localidad": "11"
+  },
+  {
+    "id": "004546",
+    "nombre": "Villa Del Rio",
+    "localidad": "07"
+  },
+  {
+    "id": "001335",
+    "nombre": "Villa Diana",
+    "localidad": "05"
+  },
+  {
+    "id": "009207",
+    "nombre": "Villa Elisa",
+    "localidad": "11"
+  },
+  {
+    "id": "005637",
+    "nombre": "Villa Gladys",
+    "localidad": "10"
+  },
+  {
+    "id": "002549",
+    "nombre": "Villa Gloria",
+    "localidad": "19"
+  },
+  {
+    "id": "009244",
+    "nombre": "Villa Hermosa",
+    "localidad": "11"
+  },
+  {
+    "id": "002594",
+    "nombre": "Villa Israel",
+    "localidad": "05"
+  },
+  {
+    "id": "005614",
+    "nombre": "Villa Luz",
+    "localidad": "10"
+  },
+  {
+    "id": "009209",
+    "nombre": "Villa Maria",
+    "localidad": "11"
+  },
+  {
+    "id": "009267",
+    "nombre": "Villa Maria I",
+    "localidad": "11"
+  },
+  {
+    "id": "002311",
+    "nombre": "Villa Mayor",
+    "localidad": "18"
+  },
+  {
+    "id": "002309",
+    "nombre": "Villa Mayor Oriental",
+    "localidad": "15"
+  },
+  {
+    "id": "004578",
+    "nombre": "Villa Nelly Iii Sector",
+    "localidad": "08"
+  },
+  {
+    "id": "005658",
+    "nombre": "Villa Sagrario",
+    "localidad": "10"
+  },
+  {
+    "id": "001332",
+    "nombre": "Villabel",
+    "localidad": "04"
+  },
+  {
+    "id": "005668",
+    "nombre": "Villas De Alcala",
+    "localidad": "10"
+  },
+  {
+    "id": "005647",
+    "nombre": "Villas De Granada",
+    "localidad": "10"
+  },
+  {
+    "id": "005649",
+    "nombre": "Villas De Granada I",
+    "localidad": "10"
+  },
+  {
+    "id": "004567",
+    "nombre": "Villas Del Progreso",
+    "localidad": "07"
+  },
+  {
+    "id": "002558",
+    "nombre": "Villas El Diamante",
+    "localidad": "19"
+  },
+  {
+    "id": "006406",
+    "nombre": "Villemar",
+    "localidad": "09"
+  },
+  {
+    "id": "006503",
+    "nombre": "Vision De Oriente",
+    "localidad": "08"
+  },
+  {
+    "id": "001103",
+    "nombre": "Vitelma",
+    "localidad": "04"
+  },
+  {
+    "id": "004103",
+    "nombre": "Voto Nacional",
+    "localidad": "14"
+  },
+  {
+    "id": "001350",
+    "nombre": "Yomasa",
+    "localidad": "04"
+  },
+  {
+    "id": "002586",
+    "nombre": "Yomasa Norte",
+    "localidad": "05"
+  },
+  {
+    "id": "006520",
+    "nombre": "Zona Franca",
+    "localidad": "09"
+  }
+]

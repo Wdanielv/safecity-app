@@ -24,6 +24,9 @@ pnpm-debug.log*
 # Prisma
 apps/backend/prisma/migrations/.gitkeep_ignore
 
+# Datos oficiales descargados (regenerables con `pnpm download:bogota`)
+apps/backend/prisma/data/raw/
+
 # Sistema operativo / editor
 .DS_Store
 Thumbs.db

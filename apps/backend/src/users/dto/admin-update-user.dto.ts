@@ -18,6 +18,8 @@ export class AdminUpdateUserDto {
     example: UserStatus.ACTIVO,
   })
   @IsOptional()
-  @IsEnum(UserStatus, { message: 'status debe ser un valor válido de UserStatus' })
+  @IsEnum(UserStatus, {
+    message: 'status debe ser un valor válido de UserStatus',
+  })
   status?: UserStatus;
 }

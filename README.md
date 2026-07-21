@@ -46,7 +46,7 @@ docker compose up -d --build
 ```
 
 Esto levanta:
-- PostgreSQL + PostGIS en `localhost:5432`
+- PostgreSQL en `localhost:5432`
 - Redis en `localhost:6379`
 - Backend NestJS en `http://localhost:3001/api/v1`
 - Frontend Next.js en `http://localhost:3000`

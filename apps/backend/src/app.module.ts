@@ -1,5 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
 import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
@@ -10,7 +12,6 @@ import { LocalitiesModule } from './localities/localities.module';
 import { NeighborhoodsModule } from './neighborhoods/neighborhoods.module';
 import { SchedulerModule } from './scheduler/scheduler.module';
 import { ReputationModule } from './reputation/reputation.module';
-
 
 @Module({
   imports: [
@@ -23,13 +24,14 @@ import { ReputationModule } from './reputation/reputation.module';
     PrismaModule,
     AuthModule,
     UsersModule,
-    ReportsModule, 
+    ReportsModule,
     IncidentTypesModule,
     ConfirmationsModule,
     LocalitiesModule,
     NeighborhoodsModule,
     ReputationModule,
-    
   ],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}

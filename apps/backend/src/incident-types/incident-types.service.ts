@@ -78,9 +78,7 @@ export class IncidentTypesService {
     const page = query.page && query.page > 0 ? query.page : 1;
 
     const limit =
-      query.limit && query.limit > 0 && query.limit <= 100
-        ? query.limit
-        : 10;
+      query.limit && query.limit > 0 && query.limit <= 100 ? query.limit : 10;
 
     const skip = (page - 1) * limit;
 
@@ -143,10 +141,7 @@ export class IncidentTypesService {
    *
    * El código NO puede modificarse.
    */
-  async update(
-    id: string,
-    dto: UpdateIncidentTypeDto,
-  ): Promise<IncidentType> {
+  async update(id: string, dto: UpdateIncidentTypeDto): Promise<IncidentType> {
     const incidentType = await this.prisma.incidentType.findUnique({
       where: {
         id,
@@ -214,4 +209,4 @@ export class IncidentTypesService {
       },
     });
   }
-} 
+}

@@ -1,4 +1,11 @@
-import { Controller, Get, Param, ParseUUIDPipe, Query, UseGuards } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Param,
+  ParseUUIDPipe,
+  Query,
+  UseGuards,
+} from '@nestjs/common';
 import {
   ApiBearerAuth,
   ApiOperation,
@@ -33,7 +40,11 @@ export class LocalitiesController {
   @Get(':id')
   @ApiOperation({ summary: 'Obtener una localidad por id' })
   @ApiParam({ name: 'id', description: 'ID de la localidad' })
-  @ApiResponse({ status: 200, description: 'Localidad encontrada', type: LocalityResponseDto })
+  @ApiResponse({
+    status: 200,
+    description: 'Localidad encontrada',
+    type: LocalityResponseDto,
+  })
   @ApiResponse({ status: 401, description: 'No autenticado' })
   @ApiResponse({ status: 404, description: 'Localidad no encontrada' })
   findOne(@Param('id', ParseUUIDPipe) id: string) {

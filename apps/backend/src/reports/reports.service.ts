@@ -11,23 +11,38 @@ import { UpdateReportDto } from './dto/update-report.dto';
 import { SearchReportDto } from './dto/search-report.dto';
 import { ReportResponseDto } from './dto/report-response.dto';
 
-const REPORT_INCLUDE = {
-  incidentType: {
-    select: { id: true, code: true, label: true },
-  },
-  locality: {
-    select: { id: true, name: true },
-  },
-  neighborhood: {
-    select: { id: true, name: true },
-  },
-  user: {
-    select: { id: true, name: true, photoUrl: true },
-  },
-} satisfies Prisma.ReportInclude;
+/**
+ * Construye el include de Report de forma dinámica: la relación
+ * `confirmations` se filtra por el usuario autenticado para poder derivar
+ * `confirmedByMe` sin una consulta aparte. Si no hay usuario, se filtra por
+ * un userId inexistente para que la relación siempre resuelva vacía.
+ */
+function getReportInclude(currentUserId?: string) {
+  return {
+    incidentType: {
+      select: { id: true, code: true, label: true },
+    },
+    locality: {
+      select: { id: true, name: true },
+    },
+    neighborhood: {
+      select: { id: true, name: true },
+    },
+    user: {
+      select: { id: true, name: true, photoUrl: true },
+    },
+    _count: {
+      select: { confirmations: true },
+    },
+    confirmations: {
+      where: { userId: currentUserId ?? '' },
+      select: { id: true },
+    },
+  } satisfies Prisma.ReportInclude;
+}
 
 type ReportWithRelations = Prisma.ReportGetPayload<{
-  include: typeof REPORT_INCLUDE;
+  include: ReturnType<typeof getReportInclude>;
 }>;
 
 export interface PaginatedResult<T> {
@@ -77,9 +92,7 @@ export class ReportsService {
       });
 
       if (!incidentType) {
-        throw new NotFoundException(
-          'El tipo de incidente indicado no existe',
-        );
+        throw new NotFoundException('El tipo de incidente indicado no existe');
       }
 
       if (!incidentType.active) {
@@ -129,7 +142,7 @@ export class ReportsService {
           visibleOnMap: true,
           expiresAt,
         },
-        include: REPORT_INCLUDE,
+        include: getReportInclude(userId),
       });
     });
 
@@ -141,14 +154,15 @@ export class ReportsService {
    * Lista reportes con filtros opcionales y paginación.
    * Solo muestra reportes visibles en el mapa (visibleOnMap = true)
    * y que no hayan expirado (expiresAt > ahora).
+   * El filtro userId permite el caso de uso "Mis Reportes".
    */
   async findAll(
     query: SearchReportDto,
+    currentUserId: string,
   ): Promise<PaginatedResult<ReportResponseDto>> {
     const page = query.page && query.page > 0 ? query.page : 1;
-    const limit = query.limit && query.limit > 0 && query.limit <= 100
-      ? query.limit
-      : 10;
+    const limit =
+      query.limit && query.limit > 0 && query.limit <= 100 ? query.limit : 10;
     const skip = (page - 1) * limit;
 
     const where: Prisma.ReportWhereInput = {
@@ -157,13 +171,14 @@ export class ReportsService {
       ...(query.incidentTypeId && { incidentTypeId: query.incidentTypeId }),
       ...(query.localityId && { localityId: query.localityId }),
       ...(query.neighborhoodId && { neighborhoodId: query.neighborhoodId }),
+      ...(query.userId && { userId: query.userId }),
       ...(query.status && { status: query.status }),
     };
 
     const [reports, total] = await this.prisma.$transaction([
       this.prisma.report.findMany({
         where,
-        include: REPORT_INCLUDE,
+        include: getReportInclude(currentUserId),
         skip,
         take: limit,
         orderBy: { createdAt: 'desc' },
@@ -186,10 +201,10 @@ export class ReportsService {
    * GET /reports/:id
    * Obtiene el detalle completo de un reporte.
    */
-  async findOne(id: string): Promise<ReportResponseDto> {
+  async findOne(id: string, currentUserId: string): Promise<ReportResponseDto> {
     const report = await this.prisma.report.findUnique({
       where: { id },
-      include: REPORT_INCLUDE,
+      include: getReportInclude(currentUserId),
     });
 
     if (!report) {
@@ -230,7 +245,7 @@ export class ReportsService {
     const updated = await this.prisma.report.update({
       where: { id },
       data: { description: dto.description },
-      include: REPORT_INCLUDE,
+      include: getReportInclude(userId),
     });
 
     return this.toResponseDto(updated);
@@ -330,6 +345,8 @@ export class ReportsService {
             photoUrl: report.user.photoUrl,
           }
         : null,
+      confirmationCount: report._count.confirmations,
+      confirmedByMe: report.confirmations.length > 0,
     };
   }
 }

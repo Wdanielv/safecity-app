@@ -18,7 +18,7 @@ describe('AppController', () => {
     it('debe devolver status ok con timestamp', () => {
       const result = appController.getHealth();
       expect(result.status).toBe('ok');
-      expect(result.service).toBe('safecity-backend');
+      expect(result.service).toBe('SAFECITY API');
       expect(typeof result.timestamp).toBe('string');
     });
   });

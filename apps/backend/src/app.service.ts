@@ -5,7 +5,7 @@ export class AppService {
   getHealthStatus() {
     return {
       status: 'ok',
-      service: 'safecity-backend',
+      service: 'SAFECITY API',
       timestamp: new Date().toISOString(),
     };
   }

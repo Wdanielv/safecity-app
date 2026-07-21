@@ -5,8 +5,16 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
+import { ReportStatus } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { ConfirmationResponseDto } from './dto/confirmation-response.dto';
+
+/**
+ * Número de confirmaciones a partir del cual un reporte se considera
+ * verificado por la comunidad. No existe un status VERIFICADO en el
+ * schema, así que se reutiliza CONFIRMADO.
+ */
+const CONFIRMATION_THRESHOLD = 3;
 
 @Injectable()
 export class ConfirmationsService {
@@ -50,25 +58,20 @@ export class ConfirmationsService {
       }
 
       if (report.userId === userId) {
-        throw new ForbiddenException(
-          'No puedes confirmar tu propio reporte',
-        );
+        throw new ForbiddenException('No puedes confirmar tu propio reporte');
       }
 
-      const alreadyConfirmed =
-        await tx.reportConfirmation.findUnique({
-          where: {
-            reportId_userId: {
-              reportId,
-              userId,
-            },
+      const alreadyConfirmed = await tx.reportConfirmation.findUnique({
+        where: {
+          reportId_userId: {
+            reportId,
+            userId,
           },
-        });
+        },
+      });
 
       if (alreadyConfirmed) {
-        throw new ConflictException(
-          'Ya confirmaste este reporte',
-        );
+        throw new ConflictException('Ya confirmaste este reporte');
       }
 
       /**
@@ -83,6 +86,20 @@ export class ConfirmationsService {
           userId,
         },
       });
+
+      const confirmationCount = await tx.reportConfirmation.count({
+        where: { reportId },
+      });
+
+      if (
+        confirmationCount >= CONFIRMATION_THRESHOLD &&
+        report.status !== ReportStatus.CONFIRMADO
+      ) {
+        await tx.report.update({
+          where: { id: reportId },
+          data: { status: ReportStatus.CONFIRMADO },
+        });
+      }
 
       /**
        * TODO
@@ -105,20 +122,17 @@ export class ConfirmationsService {
    *
    * Elimina la confirmación realizada por el usuario.
    */
-  async remove(
-    reportId: string,
-    userId: string,
-  ): Promise<{ message: string }> {
-    const report = await this.prisma.report.findUnique({
-      where: { id: reportId },
-    });
+  async remove(reportId: string, userId: string): Promise<{ message: string }> {
+    await this.prisma.$transaction(async (tx) => {
+      const report = await tx.report.findUnique({
+        where: { id: reportId },
+      });
 
-    if (!report) {
-      throw new NotFoundException('Reporte no encontrado');
-    }
+      if (!report) {
+        throw new NotFoundException('Reporte no encontrado');
+      }
 
-    const confirmation =
-      await this.prisma.reportConfirmation.findUnique({
+      const confirmation = await tx.reportConfirmation.findUnique({
         where: {
           reportId_userId: {
             reportId,
@@ -127,13 +141,12 @@ export class ConfirmationsService {
         },
       });
 
-    if (!confirmation) {
-      throw new NotFoundException(
-        'No existe una confirmación para este reporte',
-      );
-    }
+      if (!confirmation) {
+        throw new NotFoundException(
+          'No existe una confirmación para este reporte',
+        );
+      }
 
-    await this.prisma.$transaction(async (tx) => {
       await tx.reportConfirmation.delete({
         where: {
           reportId_userId: {
@@ -142,6 +155,20 @@ export class ConfirmationsService {
           },
         },
       });
+
+      const confirmationCount = await tx.reportConfirmation.count({
+        where: { reportId },
+      });
+
+      if (
+        confirmationCount < CONFIRMATION_THRESHOLD &&
+        report.status === ReportStatus.CONFIRMADO
+      ) {
+        await tx.report.update({
+          where: { id: reportId },
+          data: { status: ReportStatus.PENDIENTE },
+        });
+      }
 
       /**
        * TODO

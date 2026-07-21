@@ -1,19 +1,12 @@
-import {
-  Injectable,
-  NotFoundException,
-} from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { ReputationResponseDto } from './dto/reputation-response.dto';
 
 @Injectable()
 export class ReputationService {
-  constructor(
-    private readonly prisma: PrismaService,
-  ) {}
+  constructor(private readonly prisma: PrismaService) {}
 
-  async findMyReputation(
-    userId: string,
-  ): Promise<ReputationResponseDto> {
+  async findMyReputation(userId: string): Promise<ReputationResponseDto> {
     const user = await this.prisma.user.findUnique({
       where: {
         id: userId,
@@ -26,17 +19,13 @@ export class ReputationService {
     });
 
     if (!user) {
-      throw new NotFoundException(
-        'Usuario no encontrado',
-      );
+      throw new NotFoundException('Usuario no encontrado');
     }
 
     return user;
   }
 
-  async findUserReputation(
-    id: string,
-  ): Promise<ReputationResponseDto> {
+  async findUserReputation(id: string): Promise<ReputationResponseDto> {
     const user = await this.prisma.user.findUnique({
       where: {
         id,
@@ -49,9 +38,7 @@ export class ReputationService {
     });
 
     if (!user) {
-      throw new NotFoundException(
-        'Usuario no encontrado',
-      );
+      throw new NotFoundException('Usuario no encontrado');
     }
 
     return user;

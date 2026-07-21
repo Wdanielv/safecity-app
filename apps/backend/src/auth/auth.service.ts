@@ -17,13 +17,26 @@ export class AuthService {
   ) {}
 
   async register(dto: RegisterDto) {
-    const exists = await this.prisma.user.findUnique({ where: { email: dto.email } });
+    const exists = await this.prisma.user.findUnique({
+      where: { email: dto.email },
+    });
     if (exists) throw new ConflictException('El correo ya está registrado');
 
     const passwordHash = await bcrypt.hash(dto.password, 10);
     const user = await this.prisma.user.create({
-      data: { email: dto.email, passwordHash, name: dto.name, status: 'ACTIVO' },
-      select: { id: true, email: true, name: true, role: true, createdAt: true },
+      data: {
+        email: dto.email,
+        passwordHash,
+        name: dto.name,
+        status: 'ACTIVO',
+      },
+      select: {
+        id: true,
+        email: true,
+        name: true,
+        role: true,
+        createdAt: true,
+      },
     });
 
     const tokens = await this.generateTokens(user.id, user.email, user.role);
@@ -31,7 +44,9 @@ export class AuthService {
   }
 
   async login(dto: LoginDto) {
-    const user = await this.prisma.user.findUnique({ where: { email: dto.email } });
+    const user = await this.prisma.user.findUnique({
+      where: { email: dto.email },
+    });
     if (!user || user.status === 'SUSPENDIDO' || user.status === 'ELIMINADO') {
       throw new UnauthorizedException('Credenciales inválidas');
     }
@@ -40,7 +55,12 @@ export class AuthService {
 
     const tokens = await this.generateTokens(user.id, user.email, user.role);
     return {
-      user: { id: user.id, email: user.email, name: user.name, role: user.role },
+      user: {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        role: user.role,
+      },
       ...tokens,
     };
   }
@@ -48,7 +68,9 @@ export class AuthService {
   async refresh(refreshToken: string) {
     const records = await this.prisma.refreshToken.findMany({
       where: { revokedAt: null, expiresAt: { gt: new Date() } },
-      include: { user: { select: { id: true, email: true, role: true, status: true } } },
+      include: {
+        user: { select: { id: true, email: true, role: true, status: true } },
+      },
     });
 
     let found: (typeof records)[0] | null = null;
@@ -68,7 +90,11 @@ export class AuthService {
       data: { revokedAt: new Date() },
     });
 
-    return this.generateTokens(found.user.id, found.user.email, found.user.role);
+    return this.generateTokens(
+      found.user.id,
+      found.user.email,
+      found.user.role,
+    );
   }
 
   async logout(userId: string) {

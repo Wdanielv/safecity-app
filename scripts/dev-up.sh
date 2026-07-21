@@ -6,7 +6,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-echo "Levantando PostgreSQL + PostGIS y Redis..."
+echo "Levantando PostgreSQL y Redis..."
 docker compose -f docker/docker-compose.dev.yml up -d
 
 echo ""

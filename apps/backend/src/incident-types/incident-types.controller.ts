@@ -35,7 +35,6 @@ import { ChangeIncidentTypeStatusDto } from './dto/change-incident-type-status.d
 @ApiBearerAuth()
 @UseGuards(JwtAuthGuard)
 @Controller('incident-types')
-
 export class IncidentTypesController {
   constructor(private readonly incidentTypesService: IncidentTypesService) {}
 
@@ -49,7 +48,10 @@ export class IncidentTypesController {
   @ApiResponse({ status: 201, description: 'Tipo de incidente creado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
   @ApiResponse({ status: 401, description: 'No autenticado' })
-  @ApiResponse({ status: 403, description: 'No autorizado (no es ADMINISTRADOR)' })
+  @ApiResponse({
+    status: 403,
+    description: 'No autorizado (no es ADMINISTRADOR)',
+  })
   @ApiResponse({ status: 409, description: 'Ya existe un tipo con ese código' })
   create(@Body() dto: CreateIncidentTypeDto) {
     return this.incidentTypesService.create(dto);
@@ -62,7 +64,10 @@ export class IncidentTypesController {
       'Accesible para cualquier usuario autenticado. Por defecto solo ' +
       'devuelve tipos activos; se puede filtrar explícitamente con ?active=.',
   })
-  @ApiResponse({ status: 200, description: 'Listado paginado de tipos de incidente' })
+  @ApiResponse({
+    status: 200,
+    description: 'Listado paginado de tipos de incidente',
+  })
   findAll(@Query() query: SearchIncidentTypeDto) {
     return this.incidentTypesService.findAll(query);
   }
@@ -88,7 +93,10 @@ export class IncidentTypesController {
   @ApiResponse({ status: 200, description: 'Tipo de incidente actualizado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
   @ApiResponse({ status: 401, description: 'No autenticado' })
-  @ApiResponse({ status: 403, description: 'No autorizado (no es ADMINISTRADOR)' })
+  @ApiResponse({
+    status: 403,
+    description: 'No autorizado (no es ADMINISTRADOR)',
+  })
   @ApiResponse({ status: 404, description: 'Tipo de incidente no encontrado' })
   update(
     @Param('id', ParseUUIDPipe) id: string,
@@ -109,9 +117,15 @@ export class IncidentTypesController {
       'repetir la misma petición no genera error.',
   })
   @ApiParam({ name: 'id', description: 'ID del tipo de incidente' })
-  @ApiResponse({ status: 200, description: 'Estado actualizado (o ya se encontraba en ese estado)' })
+  @ApiResponse({
+    status: 200,
+    description: 'Estado actualizado (o ya se encontraba en ese estado)',
+  })
   @ApiResponse({ status: 401, description: 'No autenticado' })
-  @ApiResponse({ status: 403, description: 'No autorizado (no es ADMINISTRADOR)' })
+  @ApiResponse({
+    status: 403,
+    description: 'No autorizado (no es ADMINISTRADOR)',
+  })
   @ApiResponse({ status: 404, description: 'Tipo de incidente no encontrado' })
   changeStatus(
     @Param('id', ParseUUIDPipe) id: string,

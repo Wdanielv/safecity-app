@@ -25,9 +25,7 @@ interface AuthenticatedUser {
 @UseGuards(JwtAuthGuard)
 @Controller('reputation')
 export class ReputationController {
-  constructor(
-    private readonly reputationService: ReputationService,
-  ) {}
+  constructor(private readonly reputationService: ReputationService) {}
 
   @Get('me')
   @ApiOperation({
@@ -37,12 +35,8 @@ export class ReputationController {
     status: 200,
     type: ReputationResponseDto,
   })
-  findMine(
-    @CurrentUser() user: AuthenticatedUser,
-  ) {
-    return this.reputationService.findMyReputation(
-      user.sub,
-    );
+  findMine(@CurrentUser() user: AuthenticatedUser) {
+    return this.reputationService.findMyReputation(user.sub);
   }
 
   @Get(':id')
@@ -57,8 +51,6 @@ export class ReputationController {
     @Param('id', ParseUUIDPipe)
     id: string,
   ) {
-    return this.reputationService.findUserReputation(
-      id,
-    );
+    return this.reputationService.findUserReputation(id);
   }
 }

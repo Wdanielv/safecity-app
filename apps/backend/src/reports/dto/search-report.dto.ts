@@ -29,6 +29,15 @@ export class SearchReportDto {
   neighborhoodId?: string;
 
   @ApiPropertyOptional({
+    description:
+      'Filtrar por autor del reporte. Útil para el caso de uso "Mis Reportes".',
+    example: 'f1a2b3c4-1234-4a5b-9c6d-7e8f9a0b1c2d',
+  })
+  @IsOptional()
+  @IsUUID()
+  userId?: string;
+
+  @ApiPropertyOptional({
     description: 'Filtrar por estado del reporte',
     enum: ReportStatus,
     example: ReportStatus.PENDIENTE,
@@ -37,14 +46,22 @@ export class SearchReportDto {
   @IsEnum(ReportStatus)
   status?: ReportStatus;
 
-  @ApiPropertyOptional({ description: 'Número de página', example: 1, default: 1 })
+  @ApiPropertyOptional({
+    description: 'Número de página',
+    example: 1,
+    default: 1,
+  })
   @IsOptional()
   @Type(() => Number)
   @IsInt()
   @Min(1)
   page?: number;
 
-  @ApiPropertyOptional({ description: 'Resultados por página', example: 10, default: 10 })
+  @ApiPropertyOptional({
+    description: 'Resultados por página',
+    example: 10,
+    default: 10,
+  })
   @IsOptional()
   @Type(() => Number)
   @IsInt()

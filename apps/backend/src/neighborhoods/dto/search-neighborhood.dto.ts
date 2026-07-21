@@ -26,7 +26,8 @@ export class SearchNeighborhoodDto {
   limit?: number = 10;
 
   @ApiPropertyOptional({
-    description: 'ID de la localidad para filtrar los barrios pertenecientes a ella',
+    description:
+      'ID de la localidad para filtrar los barrios pertenecientes a ella',
   })
   @IsOptional()
   @IsUUID()

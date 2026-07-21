@@ -5,7 +5,6 @@ import {
   Param,
   ParseIntPipe,
   Patch,
-  Put,
   Query,
   UseGuards,
 } from '@nestjs/common';
@@ -52,7 +51,7 @@ export class UsersController {
     return this.usersService.getProfile(user.sub);
   }
 
-  @Put('me')
+  @Patch('me')
   @ApiOperation({
     summary: 'Actualizar el perfil del usuario autenticado',
     description: 'Permite modificar name, phone y photoUrl únicamente.',
@@ -67,7 +66,7 @@ export class UsersController {
     return this.usersService.updateProfile(user.sub, dto);
   }
 
-  @Put('me/password')
+  @Patch('me/password')
   @ApiOperation({ summary: 'Cambiar la contraseña del usuario autenticado' })
   @ApiResponse({ status: 200, description: 'Contraseña actualizada' })
   @ApiResponse({
@@ -125,10 +124,7 @@ export class UsersController {
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
   @ApiResponse({ status: 403, description: 'Requiere rol ADMIN' })
   @ApiResponse({ status: 404, description: 'Usuario no encontrado' })
-  adminUpdateUser(
-    @Param('id') id: string,
-    @Body() dto: AdminUpdateUserDto,
-  ) {
+  adminUpdateUser(@Param('id') id: string, @Body() dto: AdminUpdateUserDto) {
     return this.usersService.adminUpdateUser(id, dto);
   }
 }

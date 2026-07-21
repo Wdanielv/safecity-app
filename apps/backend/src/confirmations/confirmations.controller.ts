@@ -30,9 +30,7 @@ interface AuthenticatedUser {
 @UseGuards(JwtAuthGuard)
 @Controller('reports/:id/confirmations')
 export class ConfirmationsController {
-  constructor(
-    private readonly confirmationsService: ConfirmationsService,
-  ) {}
+  constructor(private readonly confirmationsService: ConfirmationsService) {}
 
   @Post()
   @ApiOperation({

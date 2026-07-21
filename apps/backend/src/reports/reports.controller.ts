@@ -45,33 +45,53 @@ export class ReportsController {
     description:
       'status, visibleOnMap, expiresAt y userId se calculan automáticamente en el backend.',
   })
-  @ApiResponse({ status: 201, description: 'Reporte creado', type: ReportResponseDto })
-  @ApiResponse({ status: 400, description: 'Datos inválidos o tipo de incidente inactivo' })
+  @ApiResponse({
+    status: 201,
+    description: 'Reporte creado',
+    type: ReportResponseDto,
+  })
+  @ApiResponse({
+    status: 400,
+    description: 'Datos inválidos o tipo de incidente inactivo',
+  })
   @ApiResponse({ status: 401, description: 'No autenticado' })
-  @ApiResponse({ status: 404, description: 'Tipo de incidente, localidad o barrio no encontrado' })
-  create(
-    @CurrentUser() user: AuthenticatedUser,
-    @Body() dto: CreateReportDto,
-  ) {
+  @ApiResponse({
+    status: 404,
+    description: 'Tipo de incidente, localidad o barrio no encontrado',
+  })
+  create(@CurrentUser() user: AuthenticatedUser, @Body() dto: CreateReportDto) {
     return this.reportsService.create(user.sub, dto);
   }
 
   @Get()
-  @ApiOperation({ summary: 'Listar reportes con filtros y paginación' })
+  @ApiOperation({
+    summary: 'Listar reportes con filtros y paginación',
+    description:
+      'Soporta filtros opcionales por tipo de incidente, localidad, barrio, ' +
+      'estado y autor (userId, usado por el caso de uso "Mis Reportes").',
+  })
   @ApiResponse({ status: 200, description: 'Listado paginado de reportes' })
   findAll(
     @Query() query: SearchReportDto,
+    @CurrentUser() user: AuthenticatedUser,
   ): Promise<PaginatedResult<ReportResponseDto>> {
-    return this.reportsService.findAll(query);
+    return this.reportsService.findAll(query, user.sub);
   }
 
   @Get(':id')
   @ApiOperation({ summary: 'Obtener el detalle de un reporte' })
   @ApiParam({ name: 'id', description: 'ID del reporte' })
-  @ApiResponse({ status: 200, description: 'Reporte encontrado', type: ReportResponseDto })
+  @ApiResponse({
+    status: 200,
+    description: 'Reporte encontrado',
+    type: ReportResponseDto,
+  })
   @ApiResponse({ status: 404, description: 'Reporte no encontrado' })
-  findOne(@Param('id', ParseUUIDPipe) id: string) {
-    return this.reportsService.findOne(id);
+  findOne(
+    @Param('id', ParseUUIDPipe) id: string,
+    @CurrentUser() user: AuthenticatedUser,
+  ) {
+    return this.reportsService.findOne(id, user.sub);
   }
 
   @Put(':id')
@@ -81,9 +101,19 @@ export class ReportsController {
       'Solo el propietario puede editar, y solo mientras el reporte esté en estado PENDIENTE.',
   })
   @ApiParam({ name: 'id', description: 'ID del reporte' })
-  @ApiResponse({ status: 200, description: 'Reporte actualizado', type: ReportResponseDto })
-  @ApiResponse({ status: 400, description: 'El reporte ya no está en estado PENDIENTE' })
-  @ApiResponse({ status: 403, description: 'No eres el propietario del reporte' })
+  @ApiResponse({
+    status: 200,
+    description: 'Reporte actualizado',
+    type: ReportResponseDto,
+  })
+  @ApiResponse({
+    status: 400,
+    description: 'El reporte ya no está en estado PENDIENTE',
+  })
+  @ApiResponse({
+    status: 403,
+    description: 'No eres el propietario del reporte',
+  })
   @ApiResponse({ status: 404, description: 'Reporte no encontrado' })
   update(
     @Param('id', ParseUUIDPipe) id: string,
@@ -101,7 +131,10 @@ export class ReportsController {
   })
   @ApiParam({ name: 'id', description: 'ID del reporte' })
   @ApiResponse({ status: 200, description: 'Reporte ocultado del mapa' })
-  @ApiResponse({ status: 403, description: 'Sin permisos para eliminar este reporte' })
+  @ApiResponse({
+    status: 403,
+    description: 'Sin permisos para eliminar este reporte',
+  })
   @ApiResponse({ status: 404, description: 'Reporte no encontrado' })
   remove(
     @Param('id', ParseUUIDPipe) id: string,
